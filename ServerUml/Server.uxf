@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>0</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>File: server3.js</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>0</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>File: Apps
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>0</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>90</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>--
+{
+      "name": "server node.js",
+      "script": "./server3.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "demo",
+        "PORT": "1010"
+      }
+    }
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>20</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>80</y>
+      <w>290</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>--
+var express			= require('express');
+var app				= express();
+var server			= require('http').createServer(app);
+var io 				= require('socket.io').listen(server);
+--
+var CheckVersion 	= require('./CheckVersion/CheckVersion.js');
+CheckVersion.start(io);
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>20</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>970</x>
+      <y>160</y>
+      <w>350</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>File: CheckVersion.js
+--
+var version = 2;//lấy dữ liệu từ database
+var clientVersion;
+--
+S_CHECK_VERSION(socket)// receive data from client
+--
+R_CHECK_VERSION(socket)// emit to client</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>830</x>
+      <y>160</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>0</y>
+      <w>310</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>File: Db_s3.js
+--
+var Database_s3_user    =    mysql.createPool({});
+var Database_s3_basedefend    =    mysql.createPool({});
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
