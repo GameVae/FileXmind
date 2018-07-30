@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
+  <help_text>// Uncomment the following line to change the fontsize and font:
+fontsize=14
+// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// Welcome to UMLet!
+//
+// Double-click on elements to add them to the diagram, or to copy them
+// Edit elements by modifying the text in this panel
+// Hold Ctrl to select multiple elements
+// Use Ctrl+mouse to select via lasso
+//
+// Use +/- or Ctrl+mouse wheel to zoom
+// Drag a whole relation at its central square icon
+//
+// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
+// Edit the files in the "palettes" directory to create your own element palettes
+//
+// Select "Custom Elements &gt; New..." to create new element types
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// This text will be stored with each diagram;  use it for notes.</help_text>
   <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>0</y>
+      <x>380</x>
+      <y>240</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -15,8 +39,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>0</y>
+      <x>130</x>
+      <y>240</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -25,21 +49,10 @@
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>0</y>
-      <w>180</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>90</y>
+      <x>50</x>
+      <y>330</y>
       <w>210</w>
       <h>160</h>
     </coordinates>
@@ -50,32 +63,32 @@
       "instances": 1,
       "exec_mode": "cluster",
       "env": {
-        "NODE_ENV": "demo",
+        "NODE_ENV": "development",
         "PORT": "1010"
       }
     }
 --
-</panel_attributes>
+"NODE_ENV": "production",</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>20</y>
-      <w>30</w>
-      <h>90</h>
+      <x>1030</x>
+      <y>270</y>
+      <w>200</w>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>80</y>
+      <x>320</x>
+      <y>320</y>
       <w>290</w>
-      <h>170</h>
+      <h>190</h>
     </coordinates>
     <panel_attributes>--
 var express			= require('express');
@@ -83,30 +96,34 @@ var app				= express();
 var server			= require('http').createServer(app);
 var io 				= require('socket.io').listen(server);
 --
-var CheckVersion 	= require('./CheckVersion/CheckVersion.js');
-CheckVersion.start(io);
 --
-</panel_attributes>
+Sử dụng start:
+--
+var checkVersion 	= require('./CheckVersion/CheckVersion.js');
+--
+var register 		= require('./Login/Register/Register.js');
+--
+var login 			= require('./Login/Login/Login.js');</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>20</y>
+      <x>420</x>
+      <y>260</y>
       <w>30</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>970</x>
-      <y>160</y>
+      <x>710</x>
+      <y>350</y>
       <w>350</w>
-      <h>100</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>File: CheckVersion.js
 --
@@ -121,28 +138,291 @@ R_CHECK_VERSION(socket)// emit to client</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>830</x>
-      <y>160</y>
-      <w>160</w>
-      <h>40</h>
+      <x>600</x>
+      <y>350</y>
+      <w>130</w>
+      <h>110</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;20.0;140.0;10.0</additional_attributes>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;90.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>960</x>
-      <y>0</y>
+      <x>730</x>
+      <y>240</y>
       <w>310</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>File: Db_s3.js
 --
+var Database_all_user =  mysql.createPool({});
 var Database_s3_user    =    mysql.createPool({});
 var Database_s3_basedefend    =    mysql.createPool({});
 --
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>490</y>
+      <w>350</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>File: Register.js
+--
+var version = 2;//lấy dữ liệu từ database
+var clientVersion;
+--
+function S_REGISTER (socket)// receive data from client
+-function queryUser (currentUser,socket)
+function R_REGISTER_SUCCESS (currentUser,socket)// emit to client //update Database
+function R_USER_REGISTER (currentUser,socket)// emit to client
+--
+-function getCurrentUser(data)
+--
+exports.start= function start (io) {
+	io.on('connection', function(socket){
+		S_REGISTER (socket);
+	});
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>460</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1180</x>
+      <y>680</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>--
+Lưu thời gian đăng ký
+=&gt; lấy giờ đăng nhập làm giờ reset mỗi ngày
+=&gt; tính điểm VIP 
+=&gt; lấy thời gian của máy 
+=&gt; tính giờ local
+=&gt; reset server, cập nhật phiên bản
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>540</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;40.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1210</x>
+      <y>250</y>
+      <w>280</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Database chia làm nhiều phần,
+mỗi data quản lý khu vực khác nhau
+Server được đánh số thứ tự
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>260</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>250</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>0</x>
+      <y>240</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>10</x>
+      <y>240</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>440</y>
+      <w>190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1220</x>
+      <y>430</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1230</x>
+      <y>380</y>
+      <w>150</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+[Cùng version]</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1230</x>
+      <y>460</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+[Khác version]</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;170.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1360</x>
+      <y>370</y>
+      <w>240</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Không tải thông tin cập nhật</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1400</x>
+      <y>470</y>
+      <w>160</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Tải thông tin cập nhật:
+- Tài nguyên Nâng cấp base
+- Tài nguyên Nâng cấp nhà
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>660</y>
+      <w>350</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>File: Login.js
+--
+var version = 2;//lấy dữ liệu từ database
+var clientVersion;
+--
+function S_REGISTER (socket)// receive data from client
+-function queryUser (currentUser,socket)
+function R_REGISTER_SUCCESS (currentUser,socket)// emit to client //update Database
+function R_USER_REGISTER (currentUser,socket)// emit to client
+--
+-function getCurrentUser(data)
+--
+exports.start= function start (io) {
+	io.on('connection', function(socket){
+		S_REGISTER (socket);
+	});
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1180</x>
+      <y>540</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>File: UpdateDatabaseUser.js
+--
+update database cho user mới tạo tài khoản gồm:
+- Tạo mới Userbase
+- Tạo Userdefend
+- Tạo User
+- Tạo UserUnit</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>570</y>
+      <w>150</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>480</y>
+      <w>130</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;200.0</additional_attributes>
   </element>
 </diagram>
