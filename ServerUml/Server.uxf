@@ -29,7 +29,7 @@ fontsize=14
     <id>UMLClass</id>
     <coordinates>
       <x>380</x>
-      <y>240</y>
+      <y>250</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -40,7 +40,7 @@ fontsize=14
     <id>UMLClass</id>
     <coordinates>
       <x>130</x>
-      <y>240</y>
+      <y>250</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -52,7 +52,7 @@ fontsize=14
     <id>UMLClass</id>
     <coordinates>
       <x>50</x>
-      <y>330</y>
+      <y>340</y>
       <w>210</w>
       <h>160</h>
     </coordinates>
@@ -75,18 +75,18 @@ fontsize=14
     <id>Relation</id>
     <coordinates>
       <x>1030</x>
-      <y>270</y>
+      <y>280</y>
       <w>200</w>
-      <h>50</h>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;180.0;30.0</additional_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>320</x>
-      <y>320</y>
+      <y>330</y>
       <w>290</w>
       <h>190</h>
     </coordinates>
@@ -110,7 +110,7 @@ var login 			= require('./Login/Login/Login.js');</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>420</x>
-      <y>260</y>
+      <y>270</y>
       <w>30</w>
       <h>80</h>
     </coordinates>
@@ -121,7 +121,7 @@ var login 			= require('./Login/Login/Login.js');</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>710</x>
-      <y>350</y>
+      <y>360</y>
       <w>350</w>
       <h>110</h>
     </coordinates>
@@ -139,7 +139,7 @@ R_CHECK_VERSION(socket)// emit to client</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>600</x>
-      <y>350</y>
+      <y>360</y>
       <w>130</w>
       <h>110</h>
     </coordinates>
@@ -150,7 +150,7 @@ R_CHECK_VERSION(socket)// emit to client</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>730</x>
-      <y>240</y>
+      <y>250</y>
       <w>310</w>
       <h>90</h>
     </coordinates>
@@ -167,9 +167,9 @@ var Database_s3_basedefend    =    mysql.createPool({});
     <id>UMLClass</id>
     <coordinates>
       <x>710</x>
-      <y>490</y>
+      <y>500</y>
       <w>350</w>
-      <h>150</h>
+      <h>230</h>
     </coordinates>
     <panel_attributes>File: Register.js
 --
@@ -194,7 +194,7 @@ exports.start= function start (io) {
     <id>Relation</id>
     <coordinates>
       <x>600</x>
-      <y>460</y>
+      <y>470</y>
       <w>130</w>
       <h>60</h>
     </coordinates>
@@ -205,7 +205,7 @@ exports.start= function start (io) {
     <id>UMLClass</id>
     <coordinates>
       <x>1180</x>
-      <y>680</y>
+      <y>690</y>
       <w>210</w>
       <h>120</h>
     </coordinates>
@@ -223,7 +223,7 @@ Lưu thời gian đăng ký
     <id>Relation</id>
     <coordinates>
       <x>1050</x>
-      <y>540</y>
+      <y>550</y>
       <w>150</w>
       <h>60</h>
     </coordinates>
@@ -234,7 +234,7 @@ Lưu thời gian đăng ký
     <id>UMLNote</id>
     <coordinates>
       <x>1210</x>
-      <y>250</y>
+      <y>240</y>
       <w>280</w>
       <h>90</h>
     </coordinates>
@@ -248,7 +248,7 @@ bg=green</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>170</x>
-      <y>260</y>
+      <y>270</y>
       <w>30</w>
       <h>90</h>
     </coordinates>
@@ -259,7 +259,7 @@ bg=green</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>220</x>
-      <y>250</y>
+      <y>260</y>
       <w>180</w>
       <h>30</h>
     </coordinates>
@@ -270,7 +270,7 @@ bg=green</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>0</x>
-      <y>240</y>
+      <y>250</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -281,7 +281,7 @@ bg=green</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>10</x>
-      <y>240</y>
+      <y>250</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -292,7 +292,7 @@ bg=green</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1050</x>
-      <y>440</y>
+      <y>450</y>
       <w>190</w>
       <h>30</h>
     </coordinates>
@@ -303,7 +303,7 @@ bg=green</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1220</x>
-      <y>430</y>
+      <y>440</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -314,7 +314,7 @@ bg=green</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1230</x>
-      <y>380</y>
+      <y>390</y>
       <w>150</w>
       <h>70</h>
     </coordinates>
@@ -326,7 +326,7 @@ bg=green</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1230</x>
-      <y>460</y>
+      <y>470</y>
       <w>190</w>
       <h>70</h>
     </coordinates>
@@ -338,7 +338,7 @@ bg=green</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1360</x>
-      <y>370</y>
+      <y>380</y>
       <w>240</w>
       <h>40</h>
     </coordinates>
@@ -349,48 +349,36 @@ bg=green</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1400</x>
-      <y>470</y>
+      <y>480</y>
       <w>160</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>Tải thông tin cập nhật:
-- Tài nguyên Nâng cấp base
 - Tài nguyên Nâng cấp nhà
--</panel_attributes>
+- Tài nguyên Nâng cấp lính
+- Tài nguyên xây dựng bẫy
+
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>710</x>
-      <y>660</y>
+      <y>750</y>
       <w>350</w>
       <h>150</h>
     </coordinates>
     <panel_attributes>File: Login.js
 --
-var version = 2;//lấy dữ liệu từ database
-var clientVersion;
---
-function S_REGISTER (socket)// receive data from client
--function queryUser (currentUser,socket)
-function R_REGISTER_SUCCESS (currentUser,socket)// emit to client //update Database
-function R_USER_REGISTER (currentUser,socket)// emit to client
---
--function getCurrentUser(data)
---
-exports.start= function start (io) {
-	io.on('connection', function(socket){
-		S_REGISTER (socket);
-	});
-}</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>1180</x>
-      <y>540</y>
+      <y>550</y>
       <w>210</w>
       <h>120</h>
     </coordinates>
@@ -407,7 +395,7 @@ update database cho user mới tạo tài khoản gồm:
     <id>Relation</id>
     <coordinates>
       <x>1050</x>
-      <y>570</y>
+      <y>580</y>
       <w>150</w>
       <h>150</h>
     </coordinates>
@@ -418,11 +406,25 @@ update database cho user mới tạo tài khoản gồm:
     <id>Relation</id>
     <coordinates>
       <x>600</x>
-      <y>480</y>
+      <y>490</y>
       <w>130</w>
-      <h>220</h>
+      <h>300</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;110.0;200.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1150</x>
+      <y>130</y>
+      <w>280</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>bg=red
+chuyển kim cương cần nạp tiền 
+sau đó mới chuyển giữa các thành viên
+</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
