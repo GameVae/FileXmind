@@ -205,9 +205,9 @@ exports.start= function start (io) {
     <id>UMLClass</id>
     <coordinates>
       <x>1180</x>
-      <y>690</y>
+      <y>680</y>
       <w>210</w>
-      <h>120</h>
+      <h>130</h>
     </coordinates>
     <panel_attributes>--
 Lưu thời gian đăng ký
@@ -356,9 +356,7 @@ bg=green</panel_attributes>
     <panel_attributes>Tải thông tin cập nhật:
 - Tài nguyên Nâng cấp nhà
 - Tài nguyên Nâng cấp lính
-- Tài nguyên xây dựng bẫy
-
-</panel_attributes>
+- Tài nguyên xây dựng bẫy</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -397,10 +395,10 @@ update database cho user mới tạo tài khoản gồm:
       <x>1050</x>
       <y>580</y>
       <w>150</w>
-      <h>150</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;130.0;130.0</additional_attributes>
+    <additional_attributes>10.0;10.0;130.0;120.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -425,6 +423,18 @@ update database cho user mới tạo tài khoản gồm:
 chuyển kim cương cần nạp tiền 
 sau đó mới chuyển giữa các thành viên
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1180</x>
+      <y>820</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>--
+Create new user vào database: all_user</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
