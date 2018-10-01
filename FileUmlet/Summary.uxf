@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2304</x>
+      <y>0</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Summary
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1936</x>
+      <y>96</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Đăng nhập
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1936</x>
+      <y>248</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Đăng ký</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1936</x>
+      <y>464</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Quên mật khẩu</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2080</x>
+      <y>96</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Thông tin user
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2496</x>
+      <y>96</y>
+      <w>120</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Sign in
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2008</x>
+      <y>96</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2248</x>
+      <y>96</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Có lưu từ đăng nhập trước
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2152</x>
+      <y>96</y>
+      <w>112</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2384</x>
+      <y>96</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2248</x>
+      <y>152</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Không lưu
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2104</x>
+      <y>112</y>
+      <w>160</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>180.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2496</x>
+      <y>152</y>
+      <w>120</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Nhập thông tin user</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2384</x>
+      <y>152</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2552</x>
+      <y>112</y>
+      <w>24</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2680</x>
+      <y>96</y>
+      <w>168</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Server kiểm tra thông tin user
+bg=cyan
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2608</x>
+      <y>96</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2888</x>
+      <y>96</y>
+      <w>120</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Trả kết quả
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2840</x>
+      <y>96</y>
+      <w>64</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3048</x>
+      <y>96</y>
+      <w>120</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>True
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3000</x>
+      <y>96</y>
+      <w>64</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3048</x>
+      <y>144</y>
+      <w>120</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>False
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2936</x>
+      <y>112</y>
+      <w>128</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>140.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3160</x>
+      <y>96</y>
+      <w>528</w>
+      <h>432</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>640.0;520.0;640.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2552</x>
+      <y>160</y>
+      <w>568</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;10.0;40.0;690.0;40.0;690.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2008</x>
+      <y>248</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2080</x>
+      <y>248</y>
+      <w>240</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Thông tin
+-
+-
+Username
+Password
+Password confirm (nhập lại mật khẩu)
+Email
+--
+=&gt; kiểm tra password và password confirm 
+giống nhau thì mới gửi lên server
+=&gt; mã hóa md5 mật khẩu gửi lên server
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2312</x>
+      <y>248</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2384</x>
+      <y>248</y>
+      <w>200</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Server kiểm tra
+-
+-
+Username
+Email
+
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2624</x>
+      <y>248</y>
+      <w>120</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Trả kết quả
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2576</x>
+      <y>248</y>
+      <w>64</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2784</x>
+      <y>248</y>
+      <w>176</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Không tồn tại username và email
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2736</x>
+      <y>248</y>
+      <w>64</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2784</x>
+      <y>296</y>
+      <w>176</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Tồn tại username hoặc email
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2688</x>
+      <y>264</y>
+      <w>112</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>120.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2624</x>
+      <y>328</y>
+      <w>120</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Nhập lại thông tin
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2736</x>
+      <y>312</y>
+      <w>144</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;160.0;40.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2312</x>
+      <y>336</y>
+      <w>328</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;390.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3000</x>
+      <y>248</y>
+      <w>176</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Tạo database cho User mới
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3224</x>
+      <y>248</y>
+      <w>216</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Lưu thời gian tạo user mới
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3224</x>
+      <y>296</y>
+      <w>216</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Đưa user mới tạo vào server chỉ định
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2952</x>
+      <y>248</y>
+      <w>64</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3168</x>
+      <y>248</y>
+      <w>72</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3088</x>
+      <y>264</y>
+      <w>152</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1920</x>
+      <y>832</y>
+      <w>96</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>*Multi Language*
+-
+-
+English
+-
+Vietnamese
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1920</x>
+      <y>928</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*Hiệu ứng*
+-
+-
+Button
+-
+Audio
+-
+Wait-Sync
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1920</x>
+      <y>704</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Support</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2080</x>
+      <y>464</y>
+      <w>104</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Gửi tên đăng nhập</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2008</x>
+      <y>464</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2248</x>
+      <y>464</y>
+      <w>176</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>Server trả về email 
+xác nhận đổi mật khẩu user
+và code reset
+
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2176</x>
+      <y>464</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2416</x>
+      <y>464</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2488</x>
+      <y>464</y>
+      <w>104</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>User vào lấy code</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2648</x>
+      <y>464</y>
+      <w>128</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Nhập thông tin
+-
+-
+Code reset
+-
+Password mới
+Password Confirm mới</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2584</x>
+      <y>464</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2808</x>
+      <y>464</y>
+      <w>200</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Server kiểm tra code và username
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2768</x>
+      <y>464</y>
+      <w>56</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2488</x>
+      <y>592</y>
+      <w>288</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Code đổi mật khẩu tồn tại trong 24h
+
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2312</x>
+      <y>504</y>
+      <w>192</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>220.0;120.0;10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3072</x>
+      <y>464</y>
+      <w>104</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>False</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3072</x>
+      <y>536</y>
+      <w>104</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>True</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3000</x>
+      <y>464</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2704</x>
+      <y>424</y>
+      <w>424</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;510.0;10.0;510.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2912</x>
+      <y>480</y>
+      <w>176</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>200.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2912</x>
+      <y>592</y>
+      <w>104</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Xóa code reset</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3008</x>
+      <y>552</y>
+      <w>128</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;140.0;60.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3600</x>
+      <y>512</y>
+      <w>136</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>*Vào game*
+valign=center
+fontsize=20
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3168</x>
+      <y>536</y>
+      <w>448</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>540.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2768</x>
+      <y>592</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3232</x>
+      <y>584</y>
+      <w>232</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Server gửi thông báo đã 
+reset mật khẩu đến email user
+
+fontsize=18
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3136</x>
+      <y>552</y>
+      <w>112</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2080</x>
+      <y>680</y>
+      <w>240</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>User đã lưu đăng nhập</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1952</x>
+      <y>680</y>
+      <w>144</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2384</x>
+      <y>736</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Gửi đến email</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2080</x>
+      <y>736</y>
+      <w>240</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>User không lưu đăng nhập</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2312</x>
+      <y>736</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2384</x>
+      <y>680</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Gửi vào server
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2312</x>
+      <y>680</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2480</x>
+      <y>704</y>
+      <w>192</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Lấy Id case(trường hợp) để theo dõi</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2456</x>
+      <y>680</y>
+      <w>112</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;30.0;120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2456</x>
+      <y>720</y>
+      <w>112</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;120.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2736</x>
+      <y>672</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Trả vể Client</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2736</x>
+      <y>736</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Trả vể Email</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2608</x>
+      <y>680</y>
+      <w>144</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2608</x>
+      <y>720</y>
+      <w>144</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1952</x>
+      <y>720</y>
+      <w>144</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1624</x>
+      <y>624</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>*LOGIN SCENE*
+
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1744</x>
+      <y>96</y>
+      <w>208</w>
+      <h>552</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>240.0;10.0;190.0;10.0;10.0;670.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1744</x>
+      <y>248</y>
+      <w>208</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>240.0;10.0;200.0;10.0;10.0;480.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1744</x>
+      <y>464</y>
+      <w>208</w>
+      <h>184</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>240.0;10.0;200.0;10.0;10.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1744</x>
+      <y>624</y>
+      <w>192</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;110.0;190.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1744</x>
+      <y>624</y>
+      <w>192</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;270.0;190.0;270.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1744</x>
+      <y>624</y>
+      <w>192</w>
+      <h>328</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;390.0;200.0;390.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2072</x>
+      <y>832</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Scriptable Object
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2008</x>
+      <y>832</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2224</x>
+      <y>832</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Gán vào Text
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2152</x>
+      <y>832</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1920</x>
+      <y>1040</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Kiểm tra kết nối server
+bg=magenta</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1744</x>
+      <y>624</y>
+      <w>192</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;530.0;200.0;530.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2136</x>
+      <y>1040</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Connect
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2136</x>
+      <y>1104</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Disconnect</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2352</x>
+      <y>1104</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Chuyển đổi server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2352</x>
+      <y>1176</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Không kết nối server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2072</x>
+      <y>1040</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2288</x>
+      <y>1104</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1992</x>
+      <y>1056</y>
+      <w>160</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2208</x>
+      <y>1120</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2208</x>
+      <y>1056</y>
+      <w>232</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;270.0;50.0;270.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2416</x>
+      <y>1120</y>
+      <w>24</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2568</x>
+      <y>1168</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>*Thông báo*
+Không kết nối đến user</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2504</x>
+      <y>1176</y>
+      <w>80</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2568</x>
+      <y>1040</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Login</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2352</x>
+      <y>912</y>
+      <w>160</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>*Hiện thông báo từ server*
+-
+-
+Server bảo trì
+-
+User bị ban(cấm) 
+trong thời gian nhất định
+-
+User bị ban(cấm) vĩnh viễn
+
+halign=center
+bg=pink
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2288</x>
+      <y>1040</y>
+      <w>296</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>350.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2208</x>
+      <y>936</y>
+      <w>160</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1920</x>
+      <y>1256</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Phiên bản Version hiện tại</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1744</x>
+      <y>624</y>
+      <w>192</w>
+      <h>656</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;800.0;200.0;800.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2008</x>
+      <y>1056</y>
+      <w>744</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;250.0;10.0;210.0;910.0;210.0;910.0;40.0;310.0;40.0;310.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2168</x>
+      <y>1256</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Cùng version</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2072</x>
+      <y>1256</y>
+      <w>112</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2168</x>
+      <y>1312</y>
+      <w>88</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Khác version</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2328</x>
+      <y>1312</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Tải tài nguyên, assest
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2008</x>
+      <y>1272</y>
+      <w>176</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>200.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2248</x>
+      <y>1312</y>
+      <w>96</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2248</x>
+      <y>1040</y>
+      <w>512</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>600.0;10.0;620.0;10.0;620.0;280.0;10.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2576</x>
+      <y>1312</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Wait-Sync</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2480</x>
+      <y>1312</y>
+      <w>112</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2720</x>
+      <y>1040</y>
+      <w>40</w>
+      <h>296</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;30.0;10.0;30.0;350.0;20.0;350.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2176</x>
+      <y>1464</y>
+      <w>160</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>
+*MAP SCENE*
+valign=center
+halign=center
+
+fg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1888</x>
+      <y>1784</y>
+      <w>240</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Thu hoạch*
+-
+-
+Mỏ trống: đưa lính đế bảo vệ và thu hoạch
+-
+Lính chỉ vào khi 
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1456</x>
+      <y>1784</y>
+      <w>232</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>*Base*
+-
+-
+4 thành thường
+1 thành cuối dùng gem
+-
+Không giới hạn số lượng quân trú trong thành
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2176</x>
+      <y>1664</y>
+      <w>160</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*/Mỏ Resource(rss)/*
+-
+-
+4 loại rss(ngoài thành):
+Farm, Wood, Stone, Metal
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2384</x>
+      <y>1784</y>
+      <w>160</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Phòng thủ*
+-
+-
+
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2248</x>
+      <y>1720</y>
+      <w>232</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>270.0;80.0;270.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2040</x>
+      <y>1712</y>
+      <w>232</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;40.0;270.0;40.0;270.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>272</x>
+      <y>1792</y>
+      <w>264</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>*Army*
+-
+-
+Bắt đầu có 2 quân đội
+Tăng 2 khi mở mỗi thành
+-
+Tấn công và phòng thủ dựa trên 
+tỉ lệ chênh lệch giữa 2 đội quân, 
+tính toán lượng tấn công, phòng thủ và máu
+-
+Khi tấn công hoặc bị tấn công
+thì mới kích hoạt 
+xem số lượng và máu của đối phương
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1560</x>
+      <y>1664</y>
+      <w>160</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>*/Player/*
+-
+-
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2640</x>
+      <y>1664</y>
+      <w>208</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>*/Cửu cung: 9 Vị trí đặc biệt/*
+-
+-
+Chứa 9 item đặc biệt:
+Vào Guild mới có quyền chiếm
+-
+Chiếm lấy có thời gian bảo vệ, 
+sử dụng tăng chỉ số cho quân đội</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>2064</y>
+      <w>264</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>_Xuất quân_
+-
+-
+Mỗi đội quân chứa 1 loại quân duy nhất
+Tối đa đội quân là 10k quân (1 vạn)
+-
+Xuất quân ngay trên vị trí thành
+-
+Di chuyển thì không còn đứng trên vị trí thành
+-
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>272</x>
+      <y>2064</y>
+      <w>264</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>_Phòng thủ_
+-
+-
+Bắt đầu phòng thủ sau 
+khi đã dừng tấn công sau 30 giây
+-
+Tăng phòng thủ:+%
+trong 2 phút
+-
+*Online: Báo màn hình đỏ nếu 
+cánh quân phòng thủ không phải 
+là cánh quân đang được chọn.
+-
+*Offline: Báo notification
+Thông báo email sau khi đăng nhập lại
+-
+
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>544</x>
+      <y>2064</y>
+      <w>264</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>_Tấn công_
+-
+-
+/Chỉ tấn công khi đã dừng di chuyển/
+-
+-
+Tấn công chủ động: Tấn công mọi thứ 
+trong phạm vi bán kinh cho phép
+Không tăng %tấn công
+-
+Phản công: Chỉ tấn công khi bị tấn công 
+trong phạm vi bán kính cho phép
+Tăng tấn công:+% kích hoạt cùng lúc khi phòng thủ
+-
+Hiệu ứng tấn công:
+-Tấn công người khác
+-Bị tiêu diệt
+-Tiêu diệt đối phương
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>2312</y>
+      <w>264</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>_Di chuyển_
+-
+-
+Di chuyển xuyên vật thể, 
+nhưng không dừng lại trên vật thể
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>272</x>
+      <y>2312</y>
+      <w>264</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>_Thu quân_
+-
+-
+Chỉ được thu quân về thành 
+khi không bị tấn công trong 30 giây
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2248</x>
+      <y>1712</y>
+      <w>24</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2176</x>
+      <y>1784</y>
+      <w>160</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>*Bị tấn công*
+-
+-
+
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
