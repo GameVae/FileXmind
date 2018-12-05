@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>4</zoom_level>
+  <zoom_level>5</zoom_level>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>144</x>
-      <y>0</y>
-      <w>184</w>
-      <h>188</h>
+      <x>180</x>
+      <y>860</y>
+      <w>230</w>
+      <h>235</h>
     </coordinates>
     <panel_attributes>Tài nguyên - Resource
 --
@@ -30,10 +30,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>156</x>
-      <y>88</y>
-      <w>44</w>
-      <h>20</h>
+      <x>195</x>
+      <y>970</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Nông trại
 --
@@ -47,10 +47,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>156</x>
-      <y>112</y>
-      <w>44</w>
-      <h>20</h>
+      <x>195</x>
+      <y>1000</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Trại gỗ
 --
@@ -64,10 +64,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>156</x>
-      <y>136</y>
-      <w>44</w>
-      <h>20</h>
+      <x>195</x>
+      <y>1030</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Mỏ đá
 --
@@ -81,10 +81,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>156</x>
-      <y>160</y>
-      <w>44</w>
-      <h>20</h>
+      <x>195</x>
+      <y>1060</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Quặng sắt
 --
@@ -98,10 +98,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>156</x>
-      <y>64</y>
-      <w>44</w>
-      <h>20</h>
+      <x>195</x>
+      <y>940</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Kho chứa
 --
@@ -115,10 +115,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>212</x>
-      <y>88</y>
-      <w>44</w>
-      <h>20</h>
+      <x>265</x>
+      <y>970</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Sản xuất lúa
 --
@@ -132,10 +132,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>272</x>
-      <y>88</y>
-      <w>44</w>
-      <h>20</h>
+      <x>340</x>
+      <y>970</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Thu hoạch lúa
 --
@@ -149,10 +149,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>212</x>
-      <y>112</y>
-      <w>44</w>
-      <h>20</h>
+      <x>265</x>
+      <y>1000</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Sản xuất Gỗ
 --
@@ -166,10 +166,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>272</x>
-      <y>112</y>
-      <w>44</w>
-      <h>20</h>
+      <x>340</x>
+      <y>1000</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Thu hoạch Gỗ
 --
@@ -183,10 +183,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>212</x>
-      <y>136</y>
-      <w>44</w>
-      <h>20</h>
+      <x>265</x>
+      <y>1030</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Sản xuất Đá
 --
@@ -200,10 +200,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>272</x>
-      <y>136</y>
-      <w>44</w>
-      <h>20</h>
+      <x>340</x>
+      <y>1030</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Thu hoạch Đá
 --
@@ -217,10 +217,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>212</x>
-      <y>160</y>
-      <w>44</w>
-      <h>20</h>
+      <x>265</x>
+      <y>1060</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Sản xuất Sắt
 --
@@ -234,10 +234,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>272</x>
-      <y>160</y>
-      <w>44</w>
-      <h>20</h>
+      <x>340</x>
+      <y>1060</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Thu hoạch Sắt
 --
@@ -251,10 +251,10 @@ group=8</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>216</x>
-      <y>216</y>
-      <w>44</w>
-      <h>20</h>
+      <x>270</x>
+      <y>1130</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Bộ Binh
 --
@@ -262,17 +262,16 @@ group=8</panel_attributes>
 Infantry
 --
 halign=center
-bg=green
-group=11</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>524</x>
-      <y>216</y>
-      <w>44</w>
-      <h>20</h>
+      <x>655</x>
+      <y>1130</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Xạ thủ
 --
@@ -282,17 +281,16 @@ Ranged
 
 halign=center
 
-bg=green
-group=11</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>216</x>
-      <y>432</y>
-      <w>44</w>
-      <h>20</h>
+      <x>270</x>
+      <y>1400</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Kỵ binh
 --
@@ -301,17 +299,16 @@ Mounted
 --
 halign=center
 
-bg=green
-group=11</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>524</x>
-      <y>432</y>
-      <w>44</w>
-      <h>20</h>
+      <x>655</x>
+      <y>1400</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Xe công thành
 --
@@ -320,17 +317,16 @@ Siege Engine
 --
 halign=center
 
-bg=green
-group=11</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>248</y>
-      <w>44</w>
-      <h>28</h>
+      <x>225</x>
+      <y>1170</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 1
 --
@@ -339,17 +335,16 @@ Tráng binh
 --
 Soldier
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>288</y>
-      <w>44</w>
-      <h>28</h>
+      <x>225</x>
+      <y>1220</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 5
 --
@@ -358,17 +353,16 @@ Tinh binh
 --
 Trained soldiers
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>328</y>
-      <w>44</w>
-      <h>28</h>
+      <x>225</x>
+      <y>1270</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 10
 --
@@ -377,17 +371,16 @@ Cấm vệ quân
 --
 Forbidden Guard
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>368</y>
-      <w>44</w>
-      <h>28</h>
+      <x>225</x>
+      <y>1320</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 20
 --
@@ -396,116 +389,108 @@ group=11</panel_attributes>
 --
 Heroic
 -
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>156</x>
-      <y>220</y>
-      <w>68</w>
-      <h>160</h>
+      <x>195</x>
+      <y>1135</y>
+      <w>85</w>
+      <h>200</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;380.0;10.0;380.0;10.0;10.0;150.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>156</x>
-      <y>248</y>
-      <w>32</w>
-      <h>12</h>
+      <x>195</x>
+      <y>1170</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>156</x>
-      <y>288</y>
-      <w>32</w>
-      <h>12</h>
+      <x>195</x>
+      <y>1220</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>156</x>
-      <y>328</y>
-      <w>32</w>
-      <h>12</h>
+      <x>195</x>
+      <y>1270</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
-      <y>252</y>
-      <w>44</w>
-      <h>20</h>
+      <x>310</x>
+      <y>1175</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
-      <y>292</y>
-      <w>44</w>
-      <h>20</h>
+      <x>310</x>
+      <y>1225</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
-      <y>372</y>
-      <w>44</w>
-      <h>20</h>
+      <x>310</x>
+      <y>1325</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
-      <y>332</y>
-      <w>44</w>
-      <h>20</h>
+      <x>310</x>
+      <y>1275</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
@@ -513,153 +498,144 @@ group=11</panel_attributes>
 Offense
 --
 
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>308</x>
-      <y>252</y>
-      <w>44</w>
-      <h>20</h>
+      <x>385</x>
+      <y>1175</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>308</x>
-      <y>332</y>
-      <w>44</w>
-      <h>20</h>
+      <x>385</x>
+      <y>1275</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>308</x>
-      <y>372</y>
-      <w>44</w>
-      <h>20</h>
+      <x>385</x>
+      <y>1325</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>308</x>
-      <y>292</y>
-      <w>44</w>
-      <h>20</h>
+      <x>385</x>
+      <y>1225</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>368</x>
-      <y>252</y>
-      <w>44</w>
-      <h>20</h>
+      <x>460</x>
+      <y>1175</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>368</x>
-      <y>332</y>
-      <w>44</w>
-      <h>20</h>
+      <x>460</x>
+      <y>1275</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>368</x>
-      <y>372</y>
-      <w>44</w>
-      <h>20</h>
+      <x>460</x>
+      <y>1325</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>368</x>
-      <y>292</y>
-      <w>44</w>
-      <h>20</h>
+      <x>460</x>
+      <y>1225</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>144</x>
-      <y>204</y>
-      <w>292</w>
-      <h>200</h>
+      <x>180</x>
+      <y>1115</y>
+      <w>365</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>Bộ binh
 --
@@ -670,243 +646,224 @@ group=11</panel_attributes>
 layer=-1
 valign=top
 halign=Right
-bg=orange
-group=11</panel_attributes>
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>260</y>
-      <w>36</w>
-      <h>12</h>
+      <x>275</x>
+      <y>1185</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
-      <y>296</y>
-      <w>28</w>
-      <h>12</h>
+      <x>360</x>
+      <y>1230</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>376</y>
-      <w>36</w>
-      <h>12</h>
+      <x>275</x>
+      <y>1330</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>336</y>
-      <w>36</w>
-      <h>12</h>
+      <x>275</x>
+      <y>1280</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>296</y>
-      <w>36</w>
-      <h>12</h>
+      <x>275</x>
+      <y>1230</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
-      <y>260</y>
-      <w>28</w>
-      <h>12</h>
+      <x>360</x>
+      <y>1185</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
-      <y>336</y>
-      <w>28</w>
-      <h>12</h>
+      <x>360</x>
+      <y>1280</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
-      <y>376</y>
-      <w>28</w>
-      <h>12</h>
+      <x>360</x>
+      <y>1330</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>348</x>
-      <y>376</y>
-      <w>28</w>
-      <h>12</h>
+      <x>435</x>
+      <y>1330</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>348</x>
-      <y>336</y>
-      <w>28</w>
-      <h>12</h>
+      <x>435</x>
+      <y>1280</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>348</x>
-      <y>296</y>
-      <w>28</w>
-      <h>12</h>
+      <x>435</x>
+      <y>1230</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>348</x>
-      <y>260</y>
-      <w>28</w>
-      <h>12</h>
+      <x>435</x>
+      <y>1185</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>220</y>
-      <w>68</w>
-      <h>160</h>
+      <x>580</x>
+      <y>1135</y>
+      <w>85</w>
+      <h>200</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;380.0;10.0;380.0;10.0;10.0;150.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>248</y>
-      <w>32</w>
-      <h>12</h>
+      <x>580</x>
+      <y>1170</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>288</y>
-      <w>32</w>
-      <h>12</h>
+      <x>580</x>
+      <y>1220</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>328</y>
-      <w>32</w>
-      <h>12</h>
+      <x>580</x>
+      <y>1270</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>556</x>
-      <y>292</y>
-      <w>44</w>
-      <h>20</h>
+      <x>695</x>
+      <y>1225</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>556</x>
-      <y>372</y>
-      <w>44</w>
-      <h>20</h>
+      <x>695</x>
+      <y>1325</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>556</x>
-      <y>332</y>
-      <w>44</w>
-      <h>20</h>
+      <x>695</x>
+      <y>1275</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
@@ -914,153 +871,144 @@ group=11</panel_attributes>
 Offense
 --
 
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
-      <y>252</y>
-      <w>44</w>
-      <h>20</h>
+      <x>770</x>
+      <y>1175</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
-      <y>332</y>
-      <w>44</w>
-      <h>20</h>
+      <x>770</x>
+      <y>1275</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
-      <y>372</y>
-      <w>44</w>
-      <h>20</h>
+      <x>770</x>
+      <y>1325</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
-      <y>292</y>
-      <w>44</w>
-      <h>20</h>
+      <x>770</x>
+      <y>1225</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>676</x>
-      <y>252</y>
-      <w>44</w>
-      <h>20</h>
+      <x>845</x>
+      <y>1175</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>676</x>
-      <y>332</y>
-      <w>44</w>
-      <h>20</h>
+      <x>845</x>
+      <y>1275</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>676</x>
-      <y>372</y>
-      <w>44</w>
-      <h>20</h>
+      <x>845</x>
+      <y>1325</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>676</x>
-      <y>292</y>
-      <w>44</w>
-      <h>20</h>
+      <x>845</x>
+      <y>1225</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>452</x>
-      <y>204</y>
-      <w>292</w>
-      <h>200</h>
+      <x>565</x>
+      <y>1115</y>
+      <w>365</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>Xạ thủ
 --
@@ -1071,178 +1019,164 @@ group=11</panel_attributes>
 layer=-1
 valign=top
 halign=Right
-bg=orange
-group=11</panel_attributes>
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>260</y>
-      <w>36</w>
-      <h>12</h>
+      <x>660</x>
+      <y>1185</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>596</x>
-      <y>296</y>
-      <w>28</w>
-      <h>12</h>
+      <x>745</x>
+      <y>1230</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>376</y>
-      <w>36</w>
-      <h>12</h>
+      <x>660</x>
+      <y>1330</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>336</y>
-      <w>36</w>
-      <h>12</h>
+      <x>660</x>
+      <y>1280</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>296</y>
-      <w>36</w>
-      <h>12</h>
+      <x>660</x>
+      <y>1230</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>596</x>
-      <y>260</y>
-      <w>28</w>
-      <h>12</h>
+      <x>745</x>
+      <y>1185</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>596</x>
-      <y>336</y>
-      <w>28</w>
-      <h>12</h>
+      <x>745</x>
+      <y>1280</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>596</x>
-      <y>376</y>
-      <w>28</w>
-      <h>12</h>
+      <x>745</x>
+      <y>1330</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>376</y>
-      <w>28</w>
-      <h>12</h>
+      <x>820</x>
+      <y>1330</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>336</y>
-      <w>28</w>
-      <h>12</h>
+      <x>820</x>
+      <y>1280</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>296</y>
-      <w>28</w>
-      <h>12</h>
+      <x>820</x>
+      <y>1230</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>260</y>
-      <w>28</w>
-      <h>12</h>
+      <x>820</x>
+      <y>1185</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>556</x>
-      <y>252</y>
-      <w>44</w>
-      <h>20</h>
+      <x>695</x>
+      <y>1175</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>248</y>
-      <w>44</w>
-      <h>28</h>
+      <x>610</x>
+      <y>1170</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 1
 --
@@ -1251,17 +1185,16 @@ Ná thủ
 --
 Slingshot
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>288</y>
-      <w>44</w>
-      <h>28</h>
+      <x>610</x>
+      <y>1220</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 5
 --
@@ -1270,17 +1203,16 @@ Cung thủ
 --
 Sharpshooter
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>328</y>
-      <w>44</w>
-      <h>28</h>
+      <x>610</x>
+      <y>1270</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 10
 --
@@ -1289,17 +1221,16 @@ Nỏ thủ
 --
 Crossbow
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>368</y>
-      <w>44</w>
-      <h>28</h>
+      <x>610</x>
+      <y>1320</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 20
 --
@@ -1308,104 +1239,97 @@ Pháo thủ
 --
 Bomber
 -
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>156</x>
-      <y>432</y>
-      <w>68</w>
-      <h>160</h>
+      <x>195</x>
+      <y>1400</y>
+      <w>85</w>
+      <h>200</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;380.0;10.0;380.0;10.0;10.0;150.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>156</x>
-      <y>460</y>
-      <w>32</w>
-      <h>12</h>
+      <x>195</x>
+      <y>1435</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>156</x>
-      <y>540</y>
-      <w>32</w>
-      <h>12</h>
+      <x>195</x>
+      <y>1535</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
-      <y>464</y>
-      <w>44</w>
-      <h>20</h>
+      <x>310</x>
+      <y>1440</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
-      <y>504</y>
-      <w>44</w>
-      <h>20</h>
+      <x>310</x>
+      <y>1490</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
-      <y>584</y>
-      <w>44</w>
-      <h>20</h>
+      <x>310</x>
+      <y>1590</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>248</x>
-      <y>544</y>
-      <w>44</w>
-      <h>20</h>
+      <x>310</x>
+      <y>1540</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
@@ -1413,297 +1337,276 @@ group=11</panel_attributes>
 Offense
 --
 
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>308</x>
-      <y>464</y>
-      <w>44</w>
-      <h>20</h>
+      <x>385</x>
+      <y>1440</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>308</x>
-      <y>544</y>
-      <w>44</w>
-      <h>20</h>
+      <x>385</x>
+      <y>1540</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>308</x>
-      <y>584</y>
-      <w>44</w>
-      <h>20</h>
+      <x>385</x>
+      <y>1590</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>308</x>
-      <y>504</y>
-      <w>44</w>
-      <h>20</h>
+      <x>385</x>
+      <y>1490</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>368</x>
-      <y>464</y>
-      <w>44</w>
-      <h>20</h>
+      <x>460</x>
+      <y>1440</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>368</x>
-      <y>544</y>
-      <w>44</w>
-      <h>20</h>
+      <x>460</x>
+      <y>1540</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>368</x>
-      <y>584</y>
-      <w>44</w>
-      <h>20</h>
+      <x>460</x>
+      <y>1590</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>368</x>
-      <y>504</y>
-      <w>44</w>
-      <h>20</h>
+      <x>460</x>
+      <y>1490</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>472</y>
-      <w>36</w>
-      <h>12</h>
+      <x>275</x>
+      <y>1450</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
-      <y>508</y>
-      <w>28</w>
-      <h>12</h>
+      <x>360</x>
+      <y>1495</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>588</y>
-      <w>36</w>
-      <h>12</h>
+      <x>275</x>
+      <y>1595</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>548</y>
-      <w>36</w>
-      <h>12</h>
+      <x>275</x>
+      <y>1545</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>508</y>
-      <w>36</w>
-      <h>12</h>
+      <x>275</x>
+      <y>1495</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
-      <y>472</y>
-      <w>28</w>
-      <h>12</h>
+      <x>360</x>
+      <y>1450</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
-      <y>548</y>
-      <w>28</w>
-      <h>12</h>
+      <x>360</x>
+      <y>1545</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>288</x>
-      <y>588</y>
-      <w>28</w>
-      <h>12</h>
+      <x>360</x>
+      <y>1595</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>348</x>
-      <y>588</y>
-      <w>28</w>
-      <h>12</h>
+      <x>435</x>
+      <y>1595</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>348</x>
-      <y>548</y>
-      <w>28</w>
-      <h>12</h>
+      <x>435</x>
+      <y>1545</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>348</x>
-      <y>508</y>
-      <w>28</w>
-      <h>12</h>
+      <x>435</x>
+      <y>1495</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>348</x>
-      <y>472</y>
-      <w>28</w>
-      <h>12</h>
+      <x>435</x>
+      <y>1450</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>144</x>
-      <y>416</y>
-      <w>292</w>
-      <h>200</h>
+      <x>180</x>
+      <y>1380</y>
+      <w>365</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>Kỵ binh
 --
@@ -1714,17 +1617,16 @@ group=11</panel_attributes>
 layer=-1
 valign=top
 halign=Right
-bg=orange
-group=11</panel_attributes>
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>460</y>
-      <w>44</w>
-      <h>28</h>
+      <x>225</x>
+      <y>1435</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 1
 --
@@ -1733,17 +1635,16 @@ Ngưu binh
 --
 Buffaloman
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>500</y>
-      <w>44</w>
-      <h>28</h>
+      <x>225</x>
+      <y>1485</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 5
 --
@@ -1752,17 +1653,16 @@ Kỵ binh
 --
 Horseman
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>540</y>
-      <w>44</w>
-      <h>28</h>
+      <x>225</x>
+      <y>1535</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 10
 --
@@ -1771,17 +1671,16 @@ Tượng binh
 --
 War Elephant
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
-      <y>580</y>
-      <w>44</w>
-      <h>28</h>
+      <x>225</x>
+      <y>1585</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 20
 --
@@ -1790,116 +1689,108 @@ Chiến xa
 --
 War Stormer
 -
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>432</y>
-      <w>68</w>
-      <h>160</h>
+      <x>580</x>
+      <y>1400</y>
+      <w>85</w>
+      <h>200</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;380.0;10.0;380.0;10.0;10.0;150.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>460</y>
-      <w>32</w>
-      <h>12</h>
+      <x>580</x>
+      <y>1435</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>500</y>
-      <w>32</w>
-      <h>12</h>
+      <x>580</x>
+      <y>1485</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>540</y>
-      <w>32</w>
-      <h>12</h>
+      <x>580</x>
+      <y>1535</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>556</x>
-      <y>464</y>
-      <w>44</w>
-      <h>20</h>
+      <x>695</x>
+      <y>1440</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>556</x>
-      <y>504</y>
-      <w>44</w>
-      <h>20</h>
+      <x>695</x>
+      <y>1490</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>556</x>
-      <y>584</y>
-      <w>44</w>
-      <h>20</h>
+      <x>695</x>
+      <y>1590</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
 --
 Offense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>556</x>
-      <y>544</y>
-      <w>44</w>
-      <h>20</h>
+      <x>695</x>
+      <y>1540</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng công
 --
@@ -1907,297 +1798,276 @@ group=11</panel_attributes>
 Offense
 --
 
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
-      <y>464</y>
-      <w>44</w>
-      <h>20</h>
+      <x>770</x>
+      <y>1440</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
-      <y>544</y>
-      <w>44</w>
-      <h>20</h>
+      <x>770</x>
+      <y>1540</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
-      <y>584</y>
-      <w>44</w>
-      <h>20</h>
+      <x>770</x>
+      <y>1590</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
-      <y>504</y>
-      <w>44</w>
-      <h>20</h>
+      <x>770</x>
+      <y>1490</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng thủ
 --
 --
 Defense
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>676</x>
-      <y>464</y>
-      <w>44</w>
-      <h>20</h>
+      <x>845</x>
+      <y>1440</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>676</x>
-      <y>544</y>
-      <w>44</w>
-      <h>20</h>
+      <x>845</x>
+      <y>1540</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>676</x>
-      <y>584</y>
-      <w>44</w>
-      <h>20</h>
+      <x>845</x>
+      <y>1590</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>676</x>
-      <y>504</y>
-      <w>44</w>
-      <h>20</h>
+      <x>845</x>
+      <y>1490</y>
+      <w>55</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>Tăng máu
 --
 --
 Health
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>472</y>
-      <w>36</w>
-      <h>12</h>
+      <x>660</x>
+      <y>1450</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>596</x>
-      <y>508</y>
-      <w>28</w>
-      <h>12</h>
+      <x>745</x>
+      <y>1495</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>588</y>
-      <w>36</w>
-      <h>12</h>
+      <x>660</x>
+      <y>1595</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>548</y>
-      <w>36</w>
-      <h>12</h>
+      <x>660</x>
+      <y>1545</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>508</y>
-      <w>36</w>
-      <h>12</h>
+      <x>660</x>
+      <y>1495</y>
+      <w>45</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>596</x>
-      <y>472</y>
-      <w>28</w>
-      <h>12</h>
+      <x>745</x>
+      <y>1450</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>596</x>
-      <y>548</y>
-      <w>28</w>
-      <h>12</h>
+      <x>745</x>
+      <y>1545</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>596</x>
-      <y>588</y>
-      <w>28</w>
-      <h>12</h>
+      <x>745</x>
+      <y>1595</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>588</y>
-      <w>28</w>
-      <h>12</h>
+      <x>820</x>
+      <y>1595</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>548</y>
-      <w>28</w>
-      <h>12</h>
+      <x>820</x>
+      <y>1545</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>508</y>
-      <w>28</w>
-      <h>12</h>
+      <x>820</x>
+      <y>1495</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>656</x>
-      <y>472</y>
-      <w>28</w>
-      <h>12</h>
+      <x>820</x>
+      <y>1450</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>452</x>
-      <y>416</y>
-      <w>292</w>
-      <h>200</h>
+      <x>565</x>
+      <y>1380</y>
+      <w>365</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>Xe công thành
 --
@@ -2208,17 +2078,16 @@ group=11</panel_attributes>
 layer=-1
 valign=top
 halign=Right
-bg=orange
-group=11</panel_attributes>
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>460</y>
-      <w>44</w>
-      <h>28</h>
+      <x>610</x>
+      <y>1435</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 1
 --
@@ -2227,17 +2096,16 @@ Máy bắn tên
 --
 Ballista
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>500</y>
-      <w>44</w>
-      <h>28</h>
+      <x>610</x>
+      <y>1485</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 5
 --
@@ -2246,17 +2114,16 @@ Máy bắn lao
 --
 Javalin Ballista
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>540</y>
-      <w>44</w>
-      <h>28</h>
+      <x>610</x>
+      <y>1535</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 10
 --
@@ -2265,17 +2132,16 @@ Máy bắn đá
 --
 Stone Thrower
 --
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>580</y>
-      <w>44</w>
-      <h>28</h>
+      <x>610</x>
+      <y>1585</y>
+      <w>55</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>Level 20
 --
@@ -2284,32 +2150,30 @@ Máy bắn pháo
 --
 War Destroyer
 -
-halign=center
-group=11</panel_attributes>
+halign=center</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>132</x>
-      <y>192</y>
-      <w>620</w>
-      <h>432</h>
+      <x>165</x>
+      <y>1100</y>
+      <w>775</w>
+      <h>540</h>
     </coordinates>
     <panel_attributes>Quân đội - Military
 --
 bg=White
-layer=-2
-group=11</panel_attributes>
+layer=-2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
-      <y>0</y>
-      <w>52</w>
-      <h>204</h>
+      <x>125</x>
+      <y>860</y>
+      <w>65</w>
+      <h>255</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 Yêu cầu 
@@ -2319,10 +2183,10 @@ nâng cấp</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>556</x>
-      <y>88</y>
-      <w>44</w>
-      <h>24</h>
+      <x>690</x>
+      <y>955</y>
+      <w>55</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Embassy
 -
@@ -2331,17 +2195,16 @@ nâng cấp</panel_attributes>
 Đại sứ quán
 halign=center
 
-bg=green
-group=10</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>636</x>
-      <y>120</y>
-      <w>44</w>
-      <h>24</h>
+      <x>790</x>
+      <y>995</y>
+      <w>55</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Tháp tên
 -
@@ -2350,17 +2213,16 @@ group=10</panel_attributes>
 ArrowTower
 halign=center
 
-bg=green
-group=10</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>580</x>
-      <y>120</y>
-      <w>44</w>
-      <h>24</h>
+      <x>720</x>
+      <y>995</y>
+      <w>55</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Tường thành
 -
@@ -2369,17 +2231,16 @@ group=10</panel_attributes>
 Base Wall
 halign=center
 
-bg=green
-group=10</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>668</x>
-      <y>88</y>
-      <w>44</w>
-      <h>24</h>
+      <x>830</x>
+      <y>955</y>
+      <w>55</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Nơi trú ẩn
 -
@@ -2388,17 +2249,16 @@ group=10</panel_attributes>
 Shelter
 halign=center
 
-bg=green
-group=10</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>524</x>
-      <y>4</y>
-      <w>224</w>
-      <h>148</h>
+      <x>650</x>
+      <y>850</y>
+      <w>280</w>
+      <h>185</h>
     </coordinates>
     <panel_attributes>Phòng thủ - Defend
 --
@@ -2422,17 +2282,16 @@ bg=orange
 valign=top
 halign=Left
 bg=orange
-layer=-1
-group=10</panel_attributes>
+layer=-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>612</x>
-      <y>88</y>
-      <w>44</w>
-      <h>24</h>
+      <x>760</x>
+      <y>955</y>
+      <w>55</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Bệnh xá
 -
@@ -2441,17 +2300,16 @@ group=10</panel_attributes>
 Infirmary
 halign=center
 
-bg=green
-group=10</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
       <x>0</x>
-      <y>4</y>
-      <w>96</w>
-      <h>16</h>
+      <y>865</y>
+      <w>120</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>Màu xanh lá: công trình - building
 bg=green</panel_attributes>
@@ -2461,9 +2319,9 @@ bg=green</panel_attributes>
     <id>UMLNote</id>
     <coordinates>
       <x>0</x>
-      <y>32</y>
-      <w>96</w>
-      <h>16</h>
+      <y>900</y>
+      <w>120</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>Màu cam: nghiên cứu - research
 bg=orange</panel_attributes>
@@ -2472,10 +2330,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>284</x>
-      <y>756</y>
-      <w>44</w>
-      <h>24</h>
+      <x>355</x>
+      <y>1805</y>
+      <w>55</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Thuyền Phố Hiến
 -
@@ -2486,17 +2344,16 @@ Phố Hiến's Ship
 -
 halign=center
 
-bg=green
-group=9</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>284</x>
-      <y>652</y>
-      <w>44</w>
-      <h>24</h>
+      <x>355</x>
+      <y>1675</y>
+      <w>55</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Chợ
 -
@@ -2507,17 +2364,16 @@ Maket
 
 halign=center
 
-bg=green
-group=9</panel_attributes>
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>268</x>
-      <y>708</y>
-      <w>72</w>
-      <h>24</h>
+      <x>335</x>
+      <y>1745</y>
+      <w>90</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Thời gian
 -
@@ -2528,17 +2384,16 @@ Giảm thời gian vận chuyển
 
 halign=center
 
-
-group=9</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>652</y>
-      <w>100</w>
-      <h>24</h>
+      <x>450</x>
+      <y>1675</y>
+      <w>125</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Số lượng
 -
@@ -2549,17 +2404,16 @@ Tăng số lượng vận chuyển tài nguyên
 
 halign=center
 
-
-group=9</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>708</y>
-      <w>72</w>
-      <h>24</h>
+      <x>450</x>
+      <y>1745</y>
+      <w>90</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Phí giao dịch
 -
@@ -2570,70 +2424,65 @@ Giảm phí vận chuyển
 
 halign=center
 
-
-group=9</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>324</x>
-      <y>656</y>
-      <w>44</w>
-      <h>16</h>
+      <x>405</x>
+      <y>1680</y>
+      <w>55</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-Nâng cấp
-group=9</panel_attributes>
+Nâng cấp</panel_attributes>
     <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>672</y>
-      <w>40</w>
-      <h>44</h>
+      <x>375</x>
+      <y>1700</y>
+      <w>50</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-Nghiên cứu
-group=9</panel_attributes>
+Nghiên cứu</panel_attributes>
     <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>692</y>
-      <w>100</w>
-      <h>24</h>
+      <x>375</x>
+      <y>1725</y>
+      <w>125</w>
+      <h>30</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=9</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>230.0;40.0;230.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>252</x>
-      <y>636</y>
-      <w>404</w>
-      <h>240</h>
+      <x>315</x>
+      <y>1655</y>
+      <w>505</w>
+      <h>300</h>
     </coordinates>
     <panel_attributes>Giao thương - Trade
 --
 bg=orange
-layer=-1
-group=9</panel_attributes>
+layer=-1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>756</y>
-      <w>72</w>
-      <h>24</h>
+      <x>450</x>
+      <y>1805</y>
+      <w>90</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Số lượng
 -
@@ -2644,30 +2493,28 @@ Tăng số lượng vật phẩm
 
 halign=center
 
-
-group=9</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>324</x>
-      <y>760</y>
-      <w>44</w>
-      <h>16</h>
+      <x>405</x>
+      <y>1810</y>
+      <w>55</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-Nâng cấp
-group=9</panel_attributes>
+Nâng cấp</panel_attributes>
     <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>268</x>
-      <y>824</y>
-      <w>72</w>
-      <h>36</h>
+      <x>335</x>
+      <y>1890</y>
+      <w>90</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Thời gian
 -
@@ -2678,31 +2525,29 @@ Giảm thời gian tạo mới
 halign=center
 
 
-
-group=9</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>776</y>
-      <w>40</w>
-      <h>56</h>
+      <x>375</x>
+      <y>1830</y>
+      <w>50</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Nghiên cứu
 lt=&lt;&lt;&lt;-
-
-group=9</panel_attributes>
+</panel_attributes>
     <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>824</y>
-      <w>112</w>
-      <h>36</h>
+      <x>450</x>
+      <y>1890</y>
+      <w>140</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Giao dịch Đặc Biệt
 -
@@ -2716,29 +2561,27 @@ Tỉ lệ xuất hiện vật phẩm chất lượng cao
 
 halign=center
 
-
-group=9</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>800</y>
-      <w>120</w>
-      <h>32</h>
+      <x>375</x>
+      <y>1860</y>
+      <w>150</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=9</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>280.0;60.0;280.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>444</x>
-      <y>708</y>
-      <w>72</w>
-      <h>24</h>
+      <x>555</x>
+      <y>1745</y>
+      <w>90</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Vận chuyển lính
 -
@@ -2749,41 +2592,38 @@ Số lượng lính vận chuyển
 
 halign=center
 
-
-group=9</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>388</x>
-      <y>692</y>
-      <w>100</w>
-      <h>24</h>
+      <x>485</x>
+      <y>1725</y>
+      <w>125</w>
+      <h>30</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=9</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>230.0;40.0;230.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>156</x>
-      <y>500</y>
-      <w>32</w>
-      <h>12</h>
+      <x>195</x>
+      <y>1485</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=11</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>536</x>
-      <y>708</y>
-      <w>108</w>
-      <h>24</h>
+      <x>670</x>
+      <y>1745</y>
+      <w>135</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Số lượng đổi tài nguyên
 -
@@ -2794,29 +2634,27 @@ Tăng giới hạn tài nguyên trao đổi mỗi lần
 
 halign=center
 
-
-group=9</panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>476</x>
-      <y>692</y>
-      <w>120</w>
-      <h>24</h>
+      <x>595</x>
+      <y>1725</y>
+      <w>150</w>
+      <h>30</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-group=9</panel_attributes>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>280.0;40.0;280.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>196</x>
-      <y>92</y>
-      <w>24</w>
-      <h>12</h>
+      <x>245</x>
+      <y>975</y>
+      <w>30</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 group=8</panel_attributes>
@@ -2825,10 +2663,10 @@ group=8</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>196</x>
-      <y>140</y>
-      <w>24</w>
-      <h>12</h>
+      <x>245</x>
+      <y>1035</y>
+      <w>30</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 group=8</panel_attributes>
@@ -2837,10 +2675,10 @@ group=8</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>196</x>
-      <y>164</y>
-      <w>24</w>
-      <h>12</h>
+      <x>245</x>
+      <y>1065</y>
+      <w>30</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 group=8</panel_attributes>
@@ -2849,10 +2687,10 @@ group=8</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>92</y>
-      <w>28</w>
-      <h>12</h>
+      <x>315</x>
+      <y>975</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 group=8</panel_attributes>
@@ -2861,10 +2699,10 @@ group=8</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>196</x>
-      <y>116</y>
-      <w>24</w>
-      <h>12</h>
+      <x>245</x>
+      <y>1005</y>
+      <w>30</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 group=8</panel_attributes>
@@ -2873,10 +2711,10 @@ group=8</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>116</y>
-      <w>28</w>
-      <h>12</h>
+      <x>315</x>
+      <y>1005</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 group=8</panel_attributes>
@@ -2885,10 +2723,10 @@ group=8</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>164</y>
-      <w>28</w>
-      <h>12</h>
+      <x>315</x>
+      <y>1065</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 group=8</panel_attributes>
@@ -2897,13 +2735,1972 @@ group=8</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>140</y>
-      <w>28</w>
-      <h>12</h>
+      <x>315</x>
+      <y>1035</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
 group=8</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1560</x>
+      <y>215</y>
+      <w>430</w>
+      <h>255</h>
+    </coordinates>
+    <panel_attributes>*Upgrade &amp; Research*
+layer=-1
+fontsize=50</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1735</x>
+      <y>340</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Main  Base
+-
+-
+Hình tròn
+halign=center
+-
+Trung tâm</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1735</x>
+      <y>385</y>
+      <w>80</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Level MainBase Bar
+-
+Slider hiển thị:
+Nâng cấp hiện tại/20
+-
+Bo tròn 4 góc
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1595</x>
+      <y>425</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Phòng thủ
+-
+-
+Hình tròn
+halign=center
+-
+Góc dưới bên trái</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1595</x>
+      <y>305</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Tài nguyên
+-
+-
+Hình tròn
+halign=center
+-
+Góc trên bên trái</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1875</x>
+      <y>305</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Quân đội
+-
+-
+Hình tròn
+halign=center
+-
+Góc trên bên phải</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1875</x>
+      <y>425</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Giao thương
+-
+-
+Hình tròn
+halign=center
+-
+Góc dưới bên phải</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1575</x>
+      <y>355</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Main Base-Event Click:
+-
+Thông tin nâng cấp:
+-Tài nguyên hao tổn
+-Level hiện tại tiến lên lv tiếp theo
+-Thời gian cần để hoàn thành nâng cấp
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1835</x>
+      <y>355</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>4 góc không chứa level.
+-
+Event Click:
+Mở khu vực nâng cấp khác nhau
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1665</x>
+      <y>255</y>
+      <w>220</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Upgrading:
+halign=left
+group=12</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1665</x>
+      <y>280</y>
+      <w>220</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Researching:
+halign=left
+group=12</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1835</x>
+      <y>255</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>&gt;&gt;
+group=12</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1835</x>
+      <y>280</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>&gt;&gt;
+group=12</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2050</x>
+      <y>220</y>
+      <w>95</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Nút rút ngắn thời gian</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1880</x>
+      <y>225</y>
+      <w>180</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;340.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1880</x>
+      <y>225</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;340.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1295</x>
+      <y>255</y>
+      <w>185</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Hiển thị nội dung nâng cấp, nghiên cứu</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1475</x>
+      <y>255</y>
+      <w>200</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1475</x>
+      <y>255</y>
+      <w>200</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;60.0;210.0;60.0;210.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1880</x>
+      <y>260</y>
+      <w>180</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=blue</panel_attributes>
+    <additional_attributes>340.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1880</x>
+      <y>260</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=blue</panel_attributes>
+    <additional_attributes>340.0;10.0;180.0;10.0;180.0;60.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2050</x>
+      <y>260</y>
+      <w>195</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>Ẩn khi không có nâng cấp, nghiên cứu
+-
+-
+Chỉ được nâng cấp 1 loại hoặc nghiên cứu trong cùng 1 lúc</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1100</x>
+      <y>340</y>
+      <w>430</w>
+      <h>255</h>
+    </coordinates>
+    <panel_attributes>*Tài nguyên*
+layer=-2
+fontsize=50</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1300</x>
+      <y>305</y>
+      <w>305</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0;590.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>915</x>
+      <y>415</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Công trình: Hình vuông bo 4 góc
+-
+Phía dưới có thanh slider
+-Bo 4 góc
+-Có 20 cấp độ nâng cấp
+group=17</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1210</x>
+      <y>460</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Farm Harvesting</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1210</x>
+      <y>490</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Farm Garthering</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1290</x>
+      <y>490</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Wood Garthering</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1290</x>
+      <y>460</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Wood Harvesting</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1365</x>
+      <y>490</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Stone Garthering</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1365</x>
+      <y>460</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Stone Harvesting</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1435</x>
+      <y>490</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes> Garthering</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1435</x>
+      <y>460</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Harvesting</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1140</x>
+      <y>415</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Kho chứa</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1215</x>
+      <y>415</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Nông trại</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1295</x>
+      <y>415</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Trại gỗ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1370</x>
+      <y>415</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Mỏ đá</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1440</x>
+      <y>415</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Quặng sắt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1115</x>
+      <y>380</y>
+      <w>400</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1125</x>
+      <y>400</y>
+      <w>375</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>425</y>
+      <w>105</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+group=17</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1185</x>
+      <y>450</y>
+      <w>315</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>885</x>
+      <y>465</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Nghiên cứu: Hình tròn
+-
+Phía dưới có thanh slider
+-Kích thước khoảng 75% đến 90% so với công trình
+-Có 10 cấp độ nghiên cứu</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1060</x>
+      <y>465</y>
+      <w>135</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>250.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2045</x>
+      <y>385</y>
+      <w>400</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>
+group=14</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2030</x>
+      <y>345</y>
+      <w>430</w>
+      <h>255</h>
+    </coordinates>
+    <panel_attributes>*Quân đội*
+layer=-2
+fontsize=50
+group=14</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1950</x>
+      <y>305</y>
+      <w>305</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>590.0;80.0;590.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2350</x>
+      <y>385</y>
+      <w>95</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Siege Engine
+group=14</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2145</x>
+      <y>385</y>
+      <w>105</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Ranged
+group=14</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2045</x>
+      <y>385</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Infantry
+group=14</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2250</x>
+      <y>385</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Mounted
+group=14</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2355</x>
+      <y>305</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>4 Tab</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2370</x>
+      <y>315</y>
+      <w>15</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2830</x>
+      <y>0</y>
+      <w>95</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Siege Engine</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2625</x>
+      <y>0</y>
+      <w>105</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Ranged</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2525</x>
+      <y>0</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Infantry
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2730</x>
+      <y>0</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Mounted</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2525</x>
+      <y>0</y>
+      <w>400</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>25</y>
+      <w>90</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Hình bộ binh: khiên</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>155</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Slider Cấp độ/20</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>135</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Bộ binh</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>175</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Nút nâng cấp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2645</x>
+      <y>25</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Tráng binh
+--
+Soldier
+--
+Level/20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2715</x>
+      <y>25</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Tinh binh
+--
+Trained soldiers
+--
+Level/20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2780</x>
+      <y>25</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Cấm vệ quân
+--
+Forbidden Guard
+--
+Level/20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2850</x>
+      <y>25</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Đại lực sĩ
+--
+Heroic
+-
+Level/20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2830</x>
+      <y>220</y>
+      <w>95</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Siege Engine</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2625</x>
+      <y>220</y>
+      <w>105</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Ranged
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2525</x>
+      <y>220</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Infantry
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2730</x>
+      <y>220</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Mounted</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2525</x>
+      <y>220</y>
+      <w>400</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>245</y>
+      <w>90</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Hình cung binh: cung và bia</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>375</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Slider Cấp độ/20</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>355</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Cung binh</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>395</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Nút nâng cấp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2645</x>
+      <y>245</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Ná thủ
+--
+Slingshot
+--
+Level/20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2715</x>
+      <y>245</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Cung thủ
+--
+Sharpshooter
+--
+Level/20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2780</x>
+      <y>245</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Nỏ thủ
+--
+Crossbow
+--
+Level/20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2850</x>
+      <y>245</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Pháo thủ
+--
+Bomber
+-
+Level/20
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2830</x>
+      <y>440</y>
+      <w>95</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Siege Engine
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2625</x>
+      <y>440</y>
+      <w>105</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Ranged
+
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2525</x>
+      <y>440</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Infantry
+
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2730</x>
+      <y>440</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Mounted
+bg=cyan
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2525</x>
+      <y>440</y>
+      <w>400</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>465</y>
+      <w>90</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Hình kỵ binh: ngựa
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>595</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Slider Cấp độ/20
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>575</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Kỵ binh
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>615</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Nút nâng cấp
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2645</x>
+      <y>465</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Ngưu binh
+--
+Buffaloman
+--
+Level/20
+halign=center
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2715</x>
+      <y>465</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Kỵ binh
+--
+Horseman
+--
+Level/20
+halign=center
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2780</x>
+      <y>465</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Tượng binh
+--
+War Elephant
+--
+Level/20
+halign=center
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2850</x>
+      <y>465</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Chiến xa
+--
+War Stormer
+-
+Level/20
+halign=center
+group=15</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2830</x>
+      <y>660</y>
+      <w>95</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Siege Engine
+group=16
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2625</x>
+      <y>660</y>
+      <w>105</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Ranged
+
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2525</x>
+      <y>660</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Infantry
+
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2730</x>
+      <y>660</y>
+      <w>100</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Mounted
+
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2525</x>
+      <y>660</y>
+      <w>400</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>685</y>
+      <w>90</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Hình máy công thành: máy bắn đá
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>815</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Slider Cấp độ/20
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>795</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Máy công thành
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2535</x>
+      <y>835</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Nút nâng cấp
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2645</x>
+      <y>685</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Máy bắn tên
+--
+Ballista
+--
+Level/20
+halign=center
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2715</x>
+      <y>685</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Máy bắn lao
+--
+Javalin Ballista
+--
+Level/20
+halign=center
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2780</x>
+      <y>685</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Máy bắn đá
+--
+Stone Thrower
+--
+Level/20
+halign=center
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2850</x>
+      <y>685</y>
+      <w>55</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Máy bắn pháo
+--
+War Destroyer
+-
+Level/20
+halign=center
+group=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2640</x>
+      <y>20</y>
+      <w>270</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2640</x>
+      <y>240</y>
+      <w>270</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2640</x>
+      <y>460</y>
+      <w>270</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2640</x>
+      <y>680</y>
+      <w>270</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3100</x>
+      <y>30</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>-Hình vuông
+-Bo tròn 4 góc
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2905</x>
+      <y>35</y>
+      <w>205</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=green</panel_attributes>
+    <additional_attributes>390.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2905</x>
+      <y>35</y>
+      <w>205</w>
+      <h>235</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=green</panel_attributes>
+    <additional_attributes>390.0;10.0;120.0;10.0;120.0;450.0;10.0;450.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2900</x>
+      <y>35</y>
+      <w>210</w>
+      <h>460</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=green</panel_attributes>
+    <additional_attributes>400.0;10.0;130.0;10.0;130.0;900.0;10.0;900.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2900</x>
+      <y>35</y>
+      <w>210</w>
+      <h>675</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+fg=green</panel_attributes>
+    <additional_attributes>400.0;10.0;130.0;10.0;130.0;1330.0;10.0;1330.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2455</x>
+      <y>0</y>
+      <w>80</w>
+      <h>465</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;70.0;10.0;70.0;910.0;10.0;910.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2455</x>
+      <y>225</y>
+      <w>80</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;70.0;10.0;70.0;460.0;10.0;460.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2455</x>
+      <y>450</y>
+      <w>80</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;440.0;70.0;440.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2440</x>
+      <y>450</y>
+      <w>95</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3070</x>
+      <y>125</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>*Bộ binh*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3125</x>
+      <y>200</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>*Kỵ binh*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>3010</x>
+      <y>200</y>
+      <w>50</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>*Cung binh*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3055</x>
+      <y>200</y>
+      <w>80</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3090</x>
+      <y>135</y>
+      <w>65</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3030</x>
+      <y>135</y>
+      <w>70</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1320</x>
+      <y>660</y>
+      <w>430</w>
+      <h>255</h>
+    </coordinates>
+    <panel_attributes>*Phòng thủ*
+layer=-2
+fontsize=50</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1335</x>
+      <y>700</y>
+      <w>400</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1360</x>
+      <y>710</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Embassy
+-
+-
+-
+Đại sứ quán
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1585</x>
+      <y>710</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Tháp tên
+-
+-
+-
+ArrowTower
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1510</x>
+      <y>710</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Tường thành
+-
+-
+-
+Base Wall
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1660</x>
+      <y>710</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Nơi trú ẩn
+-
+-
+-
+Shelter
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1435</x>
+      <y>710</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Bệnh xá
+-
+-
+-
+Infirmary
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1140</x>
+      <y>710</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Công trình: Hình vuông bo 4 góc
+-
+Phía dưới có thanh slider
+-Bo 4 góc
+-Có 20 cấp độ nâng cấp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1255</x>
+      <y>720</y>
+      <w>105</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1350</x>
+      <y>705</y>
+      <w>375</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1825</x>
+      <y>660</y>
+      <w>430</w>
+      <h>255</h>
+    </coordinates>
+    <panel_attributes>*Giao thương*
+layer=-2
+fontsize=50</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1840</x>
+      <y>700</y>
+      <w>400</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1610</x>
+      <y>460</y>
+      <w>15</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;400.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1860</x>
+      <y>810</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Thuyền Phố Hiến
+-
+-
+-
+-
+Phố Hiến's Ship
+-
+halign=center
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1860</x>
+      <y>720</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Chợ
+-
+-
+-
+-
+Maket
+
+halign=center
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1935</x>
+      <y>725</y>
+      <w>45</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Thời gian
+
+
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1990</x>
+      <y>725</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Phí giao dịch
+
+
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1995</x>
+      <y>815</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Giao dịch Đặc Biệt
+
+
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2055</x>
+      <y>725</y>
+      <w>70</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Vận chuyển lính
+
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2135</x>
+      <y>725</y>
+      <w>95</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Số lượng đổi tài nguyên
+
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1935</x>
+      <y>815</y>
+      <w>45</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Thời gian
+
+
+halign=center
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1770</x>
+      <y>955</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Công trình: Hình vuông bo 4 góc
+-
+Phía dưới có thanh slider
+-Bo 4 góc
+-Có 20 cấp độ nâng cấp</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1875</x>
+      <y>840</y>
+      <w>15</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1855</x>
+      <y>715</y>
+      <w>65</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1915</x>
+      <y>955</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Nghiên cứu: Hình tròn
+-
+Phía dưới có thanh slider
+-Kích thước khoảng 75% đến 90% so với công trình
+-Có 10 cấp độ nghiên cứu</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2015</x>
+      <y>840</y>
+      <w>15</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1925</x>
+      <y>720</y>
+      <w>310</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>bg=cyan</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
