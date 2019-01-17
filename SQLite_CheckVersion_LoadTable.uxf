@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>1</zoom_level>
+  <zoom_level>5</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>264</x>
-      <y>133</y>
-      <w>21</w>
-      <h>4</h>
+      <x>415</x>
+      <y>20</y>
+      <w>105</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>Interface: ITable
 --
@@ -17,10 +17,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>264</x>
-      <y>139</y>
-      <w>21</w>
-      <h>8</h>
+      <x>415</x>
+      <y>50</y>
+      <w>105</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>Interface: IManualRow
 --
@@ -33,10 +33,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>245</x>
-      <y>133</y>
-      <w>10</w>
-      <h>3</h>
+      <x>320</x>
+      <y>20</y>
+      <w>50</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>Interface
 bg=yellow</panel_attributes>
@@ -45,10 +45,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>254</x>
-      <y>133</y>
-      <w>12</w>
-      <h>3</h>
+      <x>365</x>
+      <y>20</y>
+      <w>60</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
@@ -56,10 +56,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>254</x>
-      <y>133</y>
-      <w>12</w>
-      <h>9</h>
+      <x>365</x>
+      <y>20</y>
+      <w>60</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>100.0;70.0;40.0;70.0;10.0;10.0</additional_attributes>
@@ -67,10 +67,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>301</x>
-      <y>148</y>
-      <w>21</w>
-      <h>21</h>
+      <x>600</x>
+      <y>95</y>
+      <w>105</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>_Class: MainBaseRow_
 --
@@ -92,10 +92,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>284</x>
-      <y>139</y>
-      <w>19</w>
-      <h>12</h>
+      <x>515</x>
+      <y>50</y>
+      <w>95</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;120.0;10.0;170.0;100.0</additional_attributes>
@@ -103,10 +103,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>301</x>
-      <y>129</y>
-      <w>21</w>
-      <h>12</h>
+      <x>600</x>
+      <y>0</y>
+      <w>105</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>_Class: VersionRow_
 --
@@ -121,10 +121,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>284</x>
-      <y>129</y>
-      <w>19</w>
-      <h>13</h>
+      <x>515</x>
+      <y>0</y>
+      <w>95</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;110.0;120.0;110.0;170.0;10.0</additional_attributes>
@@ -132,10 +132,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>262</x>
-      <y>227</y>
-      <w>24</w>
-      <h>33</h>
+      <x>405</x>
+      <y>490</y>
+      <w>120</w>
+      <h>165</h>
     </coordinates>
     <panel_attributes>_Class: ManualTableBase&lt;T&gt;_
 where T: IManualRow
@@ -164,10 +164,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>231</x>
-      <y>205</y>
-      <w>21</w>
-      <h>3</h>
+      <x>250</x>
+      <y>380</y>
+      <w>105</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>_Class: ScriptableObject_
 bg=green</panel_attributes>
@@ -176,10 +176,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>251</x>
-      <y>205</y>
-      <w>13</w>
-      <h>25</h>
+      <x>350</x>
+      <y>380</y>
+      <w>65</w>
+      <h>125</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>110.0;230.0;30.0;230.0;30.0;10.0;10.0;10.0</additional_attributes>
@@ -187,10 +187,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>181</x>
-      <y>248</y>
-      <w>21</w>
-      <h>10</h>
+      <x>0</x>
+      <y>595</y>
+      <w>105</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>_Method: Clear()_
 --
@@ -204,10 +204,10 @@ if (Columns != null)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>201</x>
-      <y>248</y>
-      <w>63</w>
-      <h>3</h>
+      <x>100</x>
+      <y>595</y>
+      <w>315</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;610.0;10.0</additional_attributes>
@@ -215,10 +215,10 @@ if (Columns != null)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>231</x>
-      <y>232</y>
-      <w>21</w>
-      <h>5</h>
+      <x>250</x>
+      <y>515</y>
+      <w>105</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>_Propety: FieldCount_
 --
@@ -229,10 +229,10 @@ return Columns.Count;
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>231</x>
-      <y>238</y>
-      <w>21</w>
-      <h>5</h>
+      <x>250</x>
+      <y>545</y>
+      <w>105</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>_Propety: this[rowId]_
 --
@@ -243,10 +243,10 @@ return rows[rowId];
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>251</x>
-      <y>232</y>
-      <w>13</w>
-      <h>12</h>
+      <x>350</x>
+      <y>515</y>
+      <w>65</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;10.0;80.0;60.0;110.0;100.0</additional_attributes>
@@ -254,10 +254,10 @@ return rows[rowId];
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>251</x>
-      <y>238</y>
-      <w>13</w>
-      <h>7</h>
+      <x>350</x>
+      <y>545</y>
+      <w>65</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;10.0;110.0;50.0</additional_attributes>
@@ -265,10 +265,10 @@ return rows[rowId];
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>181</x>
-      <y>259</y>
-      <w>21</w>
-      <h>8</h>
+      <x>0</x>
+      <y>650</y>
+      <w>105</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>_Method: LoadRow(newRow)_
 --
@@ -280,10 +280,10 @@ rows.Add(newRow);</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>201</x>
-      <y>250</y>
-      <w>63</w>
-      <h>12</h>
+      <x>100</x>
+      <y>605</y>
+      <w>315</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;100.0;400.0;100.0;400.0;10.0;610.0;10.0</additional_attributes>
@@ -291,10 +291,10 @@ rows.Add(newRow);</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>181</x>
-      <y>269</y>
-      <w>21</w>
-      <h>7</h>
+      <x>0</x>
+      <y>700</y>
+      <w>105</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>_Method: LoadColumn(column)_
 --
@@ -305,10 +305,10 @@ if (!Columns.Contains(column))
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>201</x>
-      <y>252</y>
-      <w>63</w>
-      <h>20</h>
+      <x>100</x>
+      <y>615</y>
+      <w>315</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;180.0;400.0;180.0;400.0;10.0;610.0;10.0</additional_attributes>
@@ -316,10 +316,10 @@ if (!Columns.Contains(column))
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>181</x>
-      <y>277</y>
-      <w>52</w>
-      <h>14</h>
+      <x>0</x>
+      <y>740</y>
+      <w>260</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>_Method: SQLInsert(dbConnection,row)_
 --
@@ -335,10 +335,10 @@ if (dbConnection.InsertValue(cmd))
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>232</x>
-      <y>253</y>
-      <w>32</w>
-      <h>27</h>
+      <x>255</x>
+      <y>620</y>
+      <w>160</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;250.0;90.0;250.0;90.0;10.0;300.0;10.0</additional_attributes>
@@ -346,10 +346,10 @@ if (dbConnection.InsertValue(cmd))
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>181</x>
-      <y>292</y>
-      <w>52</w>
-      <h>13</h>
+      <x>0</x>
+      <y>815</y>
+      <w>260</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>_Method: SQLUpdate(dbConnection,rowID)_
 --
@@ -363,10 +363,10 @@ dbConnection.UpdateValue(cmd);</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>232</x>
-      <y>255</y>
-      <w>32</w>
-      <h>40</h>
+      <x>255</x>
+      <y>630</y>
+      <w>160</w>
+      <h>200</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;380.0;90.0;380.0;90.0;10.0;300.0;10.0</additional_attributes>
@@ -374,10 +374,10 @@ dbConnection.UpdateValue(cmd);</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>181</x>
-      <y>307</y>
-      <w>52</w>
-      <h>10</h>
+      <x>0</x>
+      <y>890</y>
+      <w>260</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>_Method: SQLDelete(dbConnection,rowID)_
 --
@@ -390,10 +390,10 @@ if (dbConnection.Delete(cmd))
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>232</x>
-      <y>257</y>
-      <w>32</w>
-      <h>53</h>
+      <x>255</x>
+      <y>640</y>
+      <w>160</w>
+      <h>265</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;510.0;90.0;510.0;90.0;10.0;300.0;10.0</additional_attributes>
@@ -401,10 +401,10 @@ if (dbConnection.Delete(cmd))
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>285</x>
-      <y>228</y>
-      <w>14</w>
-      <h>3</h>
+      <x>520</x>
+      <y>495</y>
+      <w>70</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
@@ -412,10 +412,10 @@ if (dbConnection.Delete(cmd))
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>297</x>
-      <y>228</y>
-      <w>27</w>
-      <h>10</h>
+      <x>580</x>
+      <y>495</y>
+      <w>135</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>[CreateAssetMenu(
 fileName = "New MainBase Table", 
@@ -429,10 +429,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>297</x>
-      <y>239</y>
-      <w>27</w>
-      <h>10</h>
+      <x>580</x>
+      <y>550</y>
+      <w>135</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>[CreateAssetMenu(
 fileName = "New Version Table", 
@@ -446,10 +446,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>285</x>
-      <y>228</y>
-      <w>14</w>
-      <h>14</h>
+      <x>520</x>
+      <y>495</y>
+      <w>70</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>120.0;120.0;70.0;120.0;70.0;10.0;10.0;10.0</additional_attributes>
@@ -457,25 +457,26 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>264</x>
-      <y>153</y>
-      <w>21</w>
-      <h>7</h>
+      <x>415</x>
+      <y>120</y>
+      <w>105</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>Enum: RowType
 --
 + MainBase
 + Version
++ Soldier
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>245</x>
-      <y>153</y>
-      <w>10</w>
-      <h>3</h>
+      <x>320</x>
+      <y>120</y>
+      <w>50</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>Enum
 bg=blue</panel_attributes>
@@ -484,10 +485,10 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>254</x>
-      <y>153</y>
-      <w>12</w>
-      <h>3</h>
+      <x>365</x>
+      <y>120</y>
+      <w>60</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
@@ -495,10 +496,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>439</x>
-      <y>222</y>
-      <w>34</w>
-      <h>42</h>
+      <x>1290</x>
+      <y>465</y>
+      <w>170</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>_Class: ManualTableLoader_
 --
@@ -522,7 +523,7 @@ _Public Method:_
 
 _Private Method:_
 * void LoadTables();
-* bool CheckVersion(out VersionRow);
+* bool IsUpdateVersion(ref VersionRow);
 * void Start();
 * void Awake();
 * void OnApplicationQuit();
@@ -532,10 +533,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>231</y>
-      <w>34</w>
-      <h>20</h>
+      <x>1130</x>
+      <y>510</y>
+      <w>170</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;210.0;10.0;210.0;180.0;320.0;180.0</additional_attributes>
@@ -543,16 +544,19 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>366</x>
-      <y>201</y>
-      <w>42</w>
-      <h>14</h>
+      <x>925</x>
+      <y>335</y>
+      <w>210</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>_Method: Load(ManualRowType,TableData)_
 --
 switch (ManualRowType)
  case RowType.MainBase:
    SQLDataConnection.LoadTable(((MainBaseTable)TableData));
+   break;
+ case DBRowType.Soldier:
+   SQLDataConnection.LoadTable(Cast&lt;SoldierTable&gt;(TableData));
    break;
  case RowType.Version:
    SQLVersionConnection.LoadTable(((VersionTable)TableData));
@@ -562,10 +566,10 @@ switch (ManualRowType)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>366</x>
-      <y>216</y>
-      <w>42</w>
-      <h>7</h>
+      <x>925</x>
+      <y>435</y>
+      <w>210</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>_Method: Cast&lt;T&gt;(data)_
 where T:  ScriptableObject, ITable
@@ -576,10 +580,10 @@ return (T)data;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>246</y>
-      <w>34</w>
-      <h>7</h>
+      <x>1130</x>
+      <y>585</y>
+      <w>170</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;210.0;10.0;210.0;50.0;320.0;50.0</additional_attributes>
@@ -587,10 +591,10 @@ return (T)data;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>366</x>
-      <y>255</y>
-      <w>41</w>
-      <h>7</h>
+      <x>925</x>
+      <y>630</y>
+      <w>205</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>_Method: LoadTables()_
 --
@@ -601,29 +605,30 @@ for (int i = 0; i &lt; Containers.Length; i++)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>366</x>
-      <y>263</y>
-      <w>41</w>
-      <h>12</h>
+      <x>925</x>
+      <y>670</y>
+      <w>205</w>
+      <h>80</h>
     </coordinates>
-    <panel_attributes>_Method: CheckVersion(ref versionTask)_
+    <panel_attributes>_Method: IsUpdateVersion(ref versionTask)_
 --
-if(versionTask == null)
-  Load(RowType.Version, Version);
-versionTask = Version.rows.FirstOrDefault
-    (x =&gt; x.Task.CompareTo("Version") == 0);
+if (versionTask == null)
+ Load(DBRowType.Version, Version);
+versionTask = Version.Rows.FirstOrDefault
+	(x =&gt; x.Task.CompareTo("Version") == 0);
 CurrentVersion = versionTask?.Content;
-return CurrentVersion == null ? true : 
-       CurrentVersion.CompareTo(ServerVersion) != 0;</panel_attributes>
+bool result = CurrentVersion == null ? 
+	true : CurrentVersion.CompareTo(ServerVersion) != 0;
+return result;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>366</x>
-      <y>284</y>
-      <w>41</w>
-      <h>8</h>
+      <x>925</x>
+      <y>805</y>
+      <w>205</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>_Method: Awake()_
 --
@@ -635,10 +640,10 @@ CurrentVersion = versionTask?.Content;t;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>366</x>
-      <y>277</y>
-      <w>41</w>
-      <h>6</h>
+      <x>925</x>
+      <y>765</y>
+      <w>205</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_Method: Start()_
 --
@@ -648,10 +653,10 @@ CurrentVersion = versionTask?.Content;t;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>406</x>
-      <y>255</y>
-      <w>35</w>
-      <h>3</h>
+      <x>1125</x>
+      <y>630</y>
+      <w>175</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;330.0;10.0</additional_attributes>
@@ -659,10 +664,10 @@ CurrentVersion = versionTask?.Content;t;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>406</x>
-      <y>256</y>
-      <w>35</w>
-      <h>10</h>
+      <x>1125</x>
+      <y>635</y>
+      <w>175</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;80.0;200.0;80.0;200.0;10.0;330.0;10.0</additional_attributes>
@@ -670,32 +675,32 @@ CurrentVersion = versionTask?.Content;t;</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>406</x>
-      <y>258</y>
-      <w>35</w>
-      <h>22</h>
+      <x>1125</x>
+      <y>645</y>
+      <w>175</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;200.0;200.0;200.0;200.0;10.0;330.0;10.0</additional_attributes>
+    <additional_attributes>10.0;250.0;200.0;250.0;200.0;10.0;330.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>406</x>
-      <y>259</y>
-      <w>35</w>
-      <h>28</h>
+      <x>1125</x>
+      <y>650</y>
+      <w>175</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;260.0;200.0;260.0;200.0;10.0;330.0;10.0</additional_attributes>
+    <additional_attributes>10.0;320.0;200.0;320.0;200.0;10.0;330.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>259</x>
-      <y>354</y>
-      <w>40</w>
-      <h>28</h>
+      <x>390</x>
+      <y>1125</y>
+      <w>200</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>_Class: SQLiteManualConnection_
 --
@@ -720,10 +725,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>184</x>
-      <y>464</y>
-      <w>50</w>
-      <h>10</h>
+      <x>15</x>
+      <y>1675</y>
+      <w>250</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>_Method: Awake()_
 --
@@ -734,10 +739,10 @@ ConnectionString = "URI=file:" + DBPath;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>184</x>
-      <y>455</y>
-      <w>50</w>
-      <h>8</h>
+      <x>15</x>
+      <y>1630</y>
+      <w>250</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>_Method: LoadColumns&lt;T&gt;(reader,table)_
 where T: IManualRow
@@ -749,10 +754,10 @@ for (int i = 0; i &lt; reader.FieldCount; i++)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>184</x>
-      <y>364</y>
-      <w>50</w>
-      <h>49</h>
+      <x>15</x>
+      <y>1175</y>
+      <w>250</w>
+      <h>245</h>
     </coordinates>
     <panel_attributes>_Method: LoadTable&lt;T&gt;(reader,table)_
 where T: IManualRow,new()
@@ -790,10 +795,10 @@ try
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>184</x>
-      <y>437</y>
-      <w>50</w>
-      <h>11</h>
+      <x>15</x>
+      <y>1540</y>
+      <w>250</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>_Method: MakeJSONValue(field,object)_
 --
@@ -807,10 +812,10 @@ else
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>184</x>
-      <y>449</y>
-      <w>50</w>
-      <h>5</h>
+      <x>15</x>
+      <y>1600</y>
+      <w>250</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>_Method: Format(valueString)_
 --
@@ -820,10 +825,10 @@ return "{" + valueString + "}";</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>233</x>
-      <y>364</y>
-      <w>28</w>
-      <h>3</h>
+      <x>260</x>
+      <y>1175</y>
+      <w>140</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;260.0;10.0</additional_attributes>
@@ -831,10 +836,10 @@ return "{" + valueString + "}";</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>233</x>
-      <y>369</y>
-      <w>28</w>
-      <h>71</h>
+      <x>260</x>
+      <y>1200</y>
+      <w>140</w>
+      <h>355</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;690.0;140.0;690.0;140.0;10.0;260.0;10.0</additional_attributes>
@@ -842,10 +847,10 @@ return "{" + valueString + "}";</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>233</x>
-      <y>371</y>
-      <w>28</w>
-      <h>81</h>
+      <x>260</x>
+      <y>1210</y>
+      <w>140</w>
+      <h>405</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;790.0;140.0;790.0;140.0;10.0;260.0;10.0</additional_attributes>
@@ -853,10 +858,10 @@ return "{" + valueString + "}";</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>233</x>
-      <y>372</y>
-      <w>28</w>
-      <h>86</h>
+      <x>260</x>
+      <y>1215</y>
+      <w>140</w>
+      <h>430</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;840.0;140.0;840.0;140.0;10.0;260.0;10.0</additional_attributes>
@@ -864,10 +869,10 @@ return "{" + valueString + "}";</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>233</x>
-      <y>374</y>
-      <w>28</w>
-      <h>93</h>
+      <x>260</x>
+      <y>1225</y>
+      <w>140</w>
+      <h>465</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;910.0;140.0;910.0;140.0;10.0;260.0;10.0</additional_attributes>
@@ -875,10 +880,10 @@ return "{" + valueString + "}";</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>262</x>
-      <y>205</y>
-      <w>24</w>
-      <h>15</h>
+      <x>405</x>
+      <y>380</y>
+      <w>120</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>[CreateAssetMenu(
 fileName = "New Container", 
@@ -896,10 +901,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>251</x>
-      <y>205</y>
-      <w>13</w>
-      <h>3</h>
+      <x>350</x>
+      <y>380</y>
+      <w>65</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>110.0;10.0;30.0;10.0;10.0;10.0</additional_attributes>
@@ -907,10 +912,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>601</x>
-      <y>199</y>
-      <w>40</w>
-      <h>18</h>
+      <x>2100</x>
+      <y>350</y>
+      <w>200</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>_Static Class: SQLUtils_
 --
@@ -929,10 +934,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>523</x>
-      <y>203</y>
-      <w>50</w>
-      <h>29</h>
+      <x>1710</x>
+      <y>370</y>
+      <w>250</w>
+      <h>145</h>
     </coordinates>
     <panel_attributes>_Method: UpdateValue(dbConnection,cmd)_
 --
@@ -957,10 +962,10 @@ catch
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>572</x>
-      <y>203</y>
-      <w>31</w>
-      <h>3</h>
+      <x>1955</x>
+      <y>370</y>
+      <w>155</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;290.0;10.0</additional_attributes>
@@ -968,10 +973,10 @@ catch
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>523</x>
-      <y>234</y>
-      <w>50</w>
-      <h>29</h>
+      <x>1710</x>
+      <y>525</y>
+      <w>250</w>
+      <h>145</h>
     </coordinates>
     <panel_attributes>_Method: InsertValue(dbConnection,cmd)_
 --
@@ -996,10 +1001,10 @@ catch
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>523</x>
-      <y>265</y>
-      <w>50</w>
-      <h>29</h>
+      <x>1710</x>
+      <y>680</y>
+      <w>250</w>
+      <h>145</h>
     </coordinates>
     <panel_attributes>_Method: DeleteValue(dbConnection,cmd)_
 --
@@ -1024,10 +1029,10 @@ catch
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>523</x>
-      <y>296</y>
-      <w>50</w>
-      <h>7</h>
+      <x>1710</x>
+      <y>835</y>
+      <w>250</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>_Method: GetUpdateCommand(table,conditions,colValuePair)_
 --
@@ -1039,10 +1044,10 @@ return string.Format("UPDATE {0} SET {1} WHERE {2} ",
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>523</x>
-      <y>304</y>
-      <w>50</w>
-      <h>7</h>
+      <x>1710</x>
+      <y>875</y>
+      <w>250</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>_Method: GetUpdateCommand(table,rowId,colValuePair)_
 --
@@ -1055,10 +1060,10 @@ return string.Format("UPDATE {0} SET {1} WHERE _rowid_ = {2} ",
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>523</x>
-      <y>312</y>
-      <w>50</w>
-      <h>7</h>
+      <x>1710</x>
+      <y>915</y>
+      <w>250</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>_Method: GetInsertCommand(table,cols,values)_
 --
@@ -1072,10 +1077,10 @@ return string.Format("INSERT INTO {0} ({1}) VALUES ({2})",
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>523</x>
-      <y>320</y>
-      <w>50</w>
-      <h>7</h>
+      <x>1710</x>
+      <y>955</y>
+      <w>250</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>_Method: GetDeleteCommand(table,conditions)_
 --
@@ -1089,10 +1094,10 @@ return string.Format("DELETE FROM {0} WHERE {1}",
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>523</x>
-      <y>328</y>
-      <w>50</w>
-      <h>10</h>
+      <x>1710</x>
+      <y>995</y>
+      <w>250</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>_Method: GetSequenceString(separateSign,values)_
 --
@@ -1107,10 +1112,10 @@ return result;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>572</x>
-      <y>205</y>
-      <w>31</w>
-      <h>32</h>
+      <x>1955</x>
+      <y>380</y>
+      <w>155</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;300.0;150.0;300.0;150.0;10.0;290.0;10.0</additional_attributes>
@@ -1118,10 +1123,10 @@ return result;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>572</x>
-      <y>206</y>
-      <w>31</w>
-      <h>62</h>
+      <x>1955</x>
+      <y>385</y>
+      <w>155</w>
+      <h>310</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;600.0;150.0;600.0;150.0;10.0;290.0;10.0</additional_attributes>
@@ -1129,10 +1134,10 @@ return result;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>572</x>
-      <y>208</y>
-      <w>31</w>
-      <h>91</h>
+      <x>1955</x>
+      <y>395</y>
+      <w>155</w>
+      <h>455</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;890.0;150.0;890.0;150.0;10.0;290.0;10.0</additional_attributes>
@@ -1140,10 +1145,10 @@ return result;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>572</x>
-      <y>210</y>
-      <w>31</w>
-      <h>97</h>
+      <x>1955</x>
+      <y>405</y>
+      <w>155</w>
+      <h>485</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;950.0;150.0;950.0;150.0;10.0;290.0;10.0</additional_attributes>
@@ -1151,10 +1156,10 @@ return result;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>572</x>
-      <y>211</y>
-      <w>31</w>
-      <h>104</h>
+      <x>1955</x>
+      <y>410</y>
+      <w>155</w>
+      <h>520</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;1020.0;150.0;1020.0;150.0;10.0;290.0;10.0</additional_attributes>
@@ -1162,10 +1167,10 @@ return result;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>572</x>
-      <y>213</y>
-      <w>31</w>
-      <h>110</h>
+      <x>1955</x>
+      <y>420</y>
+      <w>155</w>
+      <h>550</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;1080.0;150.0;1080.0;150.0;10.0;290.0;10.0</additional_attributes>
@@ -1173,10 +1178,10 @@ return result;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>572</x>
-      <y>214</y>
-      <w>31</w>
-      <h>117</h>
+      <x>1955</x>
+      <y>425</y>
+      <w>155</w>
+      <h>585</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;1150.0;150.0;1150.0;150.0;10.0;290.0;10.0</additional_attributes>
@@ -1184,10 +1189,10 @@ return result;
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>184</x>
-      <y>414</y>
-      <w>50</w>
-      <h>6</h>
+      <x>15</x>
+      <y>1425</y>
+      <w>250</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_Method: Init()_
 --
@@ -1198,10 +1203,10 @@ return result;
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>184</x>
-      <y>421</y>
-      <w>50</w>
-      <h>15</h>
+      <x>15</x>
+      <y>1460</y>
+      <w>250</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>_Method: Dispose()_
 --
@@ -1217,10 +1222,10 @@ if (DbConnection != null)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>233</x>
-      <y>368</y>
-      <w>28</w>
-      <h>56</h>
+      <x>260</x>
+      <y>1195</y>
+      <w>140</w>
+      <h>280</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;540.0;140.0;540.0;140.0;10.0;260.0;10.0</additional_attributes>
@@ -1228,10 +1233,10 @@ if (DbConnection != null)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>233</x>
-      <y>366</y>
-      <w>28</w>
-      <h>51</h>
+      <x>260</x>
+      <y>1185</y>
+      <w>140</w>
+      <h>255</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;490.0;140.0;490.0;140.0;10.0;260.0;10.0</additional_attributes>
@@ -1239,10 +1244,10 @@ if (DbConnection != null)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>366</x>
-      <y>293</y>
-      <w>41</w>
-      <h>10</h>
+      <x>925</x>
+      <y>850</y>
+      <w>205</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>_Method: OnApplicationQuit()_
 --
@@ -1255,21 +1260,21 @@ System.GC.WaitForPendingFinalizers();</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>406</x>
-      <y>261</y>
-      <w>35</w>
-      <h>35</h>
+      <x>1125</x>
+      <y>660</y>
+      <w>175</w>
+      <h>205</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;330.0;200.0;330.0;200.0;10.0;330.0;10.0</additional_attributes>
+    <additional_attributes>10.0;390.0;200.0;390.0;200.0;10.0;330.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>366</x>
-      <y>224</y>
-      <w>42</w>
-      <h>6</h>
+      <x>925</x>
+      <y>475</y>
+      <w>210</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_Method: CheckVersion()_
 --
@@ -1279,10 +1284,10 @@ return CheckVersion(versionTask: ref versionTask);</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>366</x>
-      <y>231</y>
-      <w>42</w>
-      <h>14</h>
+      <x>925</x>
+      <y>510</y>
+      <w>210</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>_Method: ReloadData()_
 --
@@ -1308,10 +1313,10 @@ LoadTables();</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>366</x>
-      <y>246</y>
-      <w>42</w>
-      <h>6</h>
+      <x>925</x>
+      <y>585</y>
+      <w>210</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_Method: InitSQLConnection()_
 --
@@ -1321,10 +1326,10 @@ SQLDataConnection.Init();</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>224</y>
-      <w>34</w>
-      <h>26</h>
+      <x>1130</x>
+      <y>475</y>
+      <w>170</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;210.0;10.0;210.0;240.0;320.0;240.0</additional_attributes>
@@ -1332,10 +1337,10 @@ SQLDataConnection.Init();</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>217</y>
-      <w>34</w>
-      <h>31</h>
+      <x>1130</x>
+      <y>440</y>
+      <w>170</w>
+      <h>155</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;210.0;10.0;210.0;290.0;320.0;290.0</additional_attributes>
@@ -1343,21 +1348,21 @@ SQLDataConnection.Init();</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>201</y>
-      <w>34</w>
-      <h>45</h>
+      <x>1130</x>
+      <y>335</y>
+      <w>170</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;210.0;10.0;210.0;430.0;320.0;430.0</additional_attributes>
+    <additional_attributes>10.0;10.0;210.0;10.0;210.0;480.0;320.0;480.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>598</x>
-      <y>361</y>
-      <w>40</w>
-      <h>26</h>
+      <x>2085</x>
+      <y>1160</y>
+      <w>200</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>_Class: VersionGame_
 --
@@ -1365,6 +1370,8 @@ _Public Field:_
 + static VersionGame Instance;
 + Connection Connection;
 + ManualTableLoader Loader;
++ RSS_PositionJSONTable RSS_Table;
+
 
 _Public Method:_
 * void S_CHECK_VERSION();
@@ -1375,16 +1382,17 @@ _Private Method:_
 * void  R_CHECK_VERSION(SocketIOEvent);
 * void DownloadFile(string,string);
 * void DownloadComplete(object, AsyncCompletedEventArgs);
+* void R_GET_RSS(SocketIOEvent);
 bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>525</x>
-      <y>373</y>
-      <w>50</w>
-      <h>10</h>
+      <x>1720</x>
+      <y>1180</y>
+      <w>250</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>_Method: S_CHECK_VERSION()_
 --
@@ -1396,10 +1404,10 @@ Connection.Socket.Emit("S_CHECK_VERSION", new JSONObject(data));</panel_attribut
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>525</x>
-      <y>437</y>
-      <w>50</w>
-      <h>13</h>
+      <x>1720</x>
+      <y>1540</y>
+      <w>250</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>_Method: DownloadComplete(sender,e)_
 --
@@ -1415,10 +1423,10 @@ Loader.ReloadData();
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>525</x>
-      <y>425</y>
-      <w>50</w>
-      <h>11</h>
+      <x>1720</x>
+      <y>1480</y>
+      <w>250</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>_Method: DownloadFile(link,saveAt)_
 --
@@ -1432,10 +1440,10 @@ client.DownloadFileCompleted +=
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>525</x>
-      <y>402</y>
-      <w>50</w>
-      <h>22</h>
+      <x>1720</x>
+      <y>1365</y>
+      <w>250</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>_Method: R_CHECK_VERSION(obj)_
 --
@@ -1457,24 +1465,25 @@ try
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>525</x>
-      <y>395</y>
-      <w>50</w>
-      <h>6</h>
+      <x>1720</x>
+      <y>1330</y>
+      <w>250</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_Method: Start()_
 --
 Connection.Socket.On("R_CHECK_VERSION", R_CHECK_VERSION);
+Connection.Socket.On("R_GET_RSS", R_GET_RSS);
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>525</x>
-      <y>388</y>
-      <w>50</w>
-      <h>6</h>
+      <x>1720</x>
+      <y>1295</y>
+      <w>250</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_Method: Awake()_
 --
@@ -1485,21 +1494,21 @@ Instance = this;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>574</x>
-      <y>373</y>
-      <w>26</w>
-      <h>3</h>
+      <x>1965</x>
+      <y>1180</y>
+      <w>130</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;240.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0;140.0;90.0;240.0;90.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>574</x>
-      <y>378</y>
-      <w>26</w>
-      <h>13</h>
+      <x>1965</x>
+      <y>1245</y>
+      <w>130</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;110.0;140.0;110.0;140.0;10.0;240.0;10.0</additional_attributes>
@@ -1507,10 +1516,10 @@ Instance = this;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>574</x>
-      <y>379</y>
-      <w>26</w>
-      <h>19</h>
+      <x>1965</x>
+      <y>1250</y>
+      <w>130</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;170.0;140.0;170.0;140.0;10.0;240.0;10.0</additional_attributes>
@@ -1518,10 +1527,10 @@ Instance = this;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>574</x>
-      <y>381</y>
-      <w>26</w>
-      <h>24</h>
+      <x>1965</x>
+      <y>1260</y>
+      <w>130</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;220.0;140.0;220.0;140.0;10.0;240.0;10.0</additional_attributes>
@@ -1529,10 +1538,10 @@ Instance = this;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>574</x>
-      <y>382</y>
-      <w>26</w>
-      <h>46</h>
+      <x>1965</x>
+      <y>1265</y>
+      <w>130</w>
+      <h>230</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;440.0;140.0;440.0;140.0;10.0;240.0;10.0</additional_attributes>
@@ -1540,10 +1549,10 @@ Instance = this;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>574</x>
-      <y>384</y>
-      <w>26</w>
-      <h>56</h>
+      <x>1965</x>
+      <y>1275</y>
+      <w>130</w>
+      <h>280</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;540.0;140.0;540.0;140.0;10.0;240.0;10.0</additional_attributes>
@@ -1551,10 +1560,10 @@ Instance = this;
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>443</x>
-      <y>359</y>
-      <w>34</w>
-      <h>40</h>
+      <x>1310</x>
+      <y>1150</y>
+      <w>170</w>
+      <h>200</h>
     </coordinates>
     <panel_attributes>_Class: Connection_
 --
@@ -1587,10 +1596,10 @@ bg=green</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>358</x>
-      <y>387</y>
-      <w>50</w>
-      <h>6</h>
+      <x>885</x>
+      <y>1290</y>
+      <w>250</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>_Method: Awake()_
 --
@@ -1601,10 +1610,10 @@ decoder = new Decoder();</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>358</x>
-      <y>394</y>
-      <w>50</w>
-      <h>31</h>
+      <x>885</x>
+      <y>1325</y>
+      <w>250</w>
+      <h>155</h>
     </coordinates>
     <panel_attributes>_Method: Start()_
 --
@@ -1630,10 +1639,10 @@ StartCoroutine("CheckVersion");</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>358</x>
-      <y>426</y>
-      <w>50</w>
-      <h>9</h>
+      <x>885</x>
+      <y>1485</y>
+      <w>250</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>_Method: Update()_
 --
@@ -1645,10 +1654,10 @@ if (!IsClose)
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>358</x>
-      <y>436</y>
-      <w>50</w>
-      <h>7</h>
+      <x>885</x>
+      <y>1535</y>
+      <w>250</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>_Method: OnApplicationQuit()_
 --
@@ -1659,10 +1668,10 @@ SocketComponent.Close();</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>358</x>
-      <y>445</y>
-      <w>50</w>
-      <h>10</h>
+      <x>885</x>
+      <y>1580</y>
+      <w>250</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>_Method: OnApplicationQuit()_
 --
@@ -1675,10 +1684,10 @@ yield break;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>358</x>
-      <y>457</y>
-      <w>50</w>
-      <h>15</h>
+      <x>885</x>
+      <y>1640</y>
+      <w>250</w>
+      <h>75</h>
     </coordinates>
     <panel_attributes>_Method: OnMessage(sender,e)_
 --
@@ -1694,10 +1703,10 @@ switch (packet.enginePacketType)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>387</y>
-      <w>38</w>
-      <h>3</h>
+      <x>1130</x>
+      <y>1290</y>
+      <w>190</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;360.0;10.0</additional_attributes>
@@ -1705,10 +1714,10 @@ switch (packet.enginePacketType)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>389</y>
-      <w>38</w>
-      <h>8</h>
+      <x>1130</x>
+      <y>1300</y>
+      <w>190</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;230.0;60.0;230.0;10.0;360.0;10.0</additional_attributes>
@@ -1716,10 +1725,10 @@ switch (packet.enginePacketType)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>390</y>
-      <w>38</w>
-      <h>39</h>
+      <x>1130</x>
+      <y>1305</y>
+      <w>190</w>
+      <h>195</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;370.0;230.0;370.0;230.0;10.0;360.0;10.0</additional_attributes>
@@ -1727,10 +1736,10 @@ switch (packet.enginePacketType)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>392</y>
-      <w>38</w>
-      <h>47</h>
+      <x>1130</x>
+      <y>1315</y>
+      <w>190</w>
+      <h>235</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;450.0;230.0;450.0;230.0;10.0;360.0;10.0</additional_attributes>
@@ -1738,10 +1747,10 @@ switch (packet.enginePacketType)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>393</y>
-      <w>38</w>
-      <h>55</h>
+      <x>1130</x>
+      <y>1320</y>
+      <w>190</w>
+      <h>275</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;530.0;230.0;530.0;230.0;10.0;360.0;10.0</additional_attributes>
@@ -1749,12 +1758,64 @@ switch (packet.enginePacketType)
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>407</x>
-      <y>395</y>
-      <w>38</w>
-      <h>65</h>
+      <x>1130</x>
+      <y>1330</y>
+      <w>190</w>
+      <h>325</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;630.0;230.0;630.0;230.0;10.0;360.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>605</y>
+      <w>135</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>[CreateAssetMenu(
+fileName = "New Soldier Table",
+menuName = "SQLiteTable/Soldier",
+order = 5)]
+_Class: ManualTableBase&lt;SoldierRow&gt; _
+--
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>495</y>
+      <w>70</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;230.0;70.0;230.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1720</x>
+      <y>1255</y>
+      <w>250</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_Method: R_GET_RSS(obj)_
+--
+RSS_Table.LoadTable(obj.data["R_GET_RSS"]);</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1965</x>
+      <y>1255</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0;140.0;100.0;240.0;100.0</additional_attributes>
   </element>
 </diagram>

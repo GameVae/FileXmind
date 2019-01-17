@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>404</y>
+      <w>112</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>_Class: Register: Monobehaiour_
+--
+_Private Fields:_
+- RegisterUI registerUI;
+- bool checkUserName = false;
+- bool checkPassword = false;
+- bool checkEmail = false;
+- string UserName;
+- string Password;
+- SocketIOComponent socketIO
+
+_Public Method_
+* void S_REGISTER
+           (Dictionary&lt;string, string&gt;);
+
+_Private Method_
+
+* void Awake();
+* void Start();
+* void R_REGISTER(SocketIOEvent);
+* IEnumerator showWarningText();
+* void checkUserNameInput(string);
+* void checkEmailInput(string);
+* void checkPasswordInput(string);
+* void checkPasswordConfirmInput(string);
+* void setRegisterClick();
+* bool checkUserAccount();
+* string md5String(string);   
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>512</x>
+      <y>0</y>
+      <w>112</w>
+      <h>116</h>
+    </coordinates>
+    <panel_attributes>_Class: RegisterUI_
+--
+_Public Fields:_
++ GameObject RegisterPanel;
++ InputField UserName;
++ InputField Password;
++ InputField PasswordConfirm;
++ InputField Email;
++ Text WarningText;
++ GameObject WarningUserName;
++ GameObject WarningPassword;
++ GameObject WarningPasswordConfirm;
++ GameObject WarningEmail;
++ Button RegisterBtn;
++ Button CloseBtn;
+
+_Public Method_
+* void ClearInfo();
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>652</x>
+      <y>108</y>
+      <w>112</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>_Method: ClearInfo()_
+--
+UserName.text = "";
+Password.text = "";
+PasswordConfirm.text = "";
+Email.text = "";
+WarningText.text = "";
+
+WarningUserName.SetActive(false);
+WarningPassword.SetActive(false);
+WarningPasswordConfirm.SetActive(false);
+WarningEmail.SetActive(false);
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>108</y>
+      <w>40</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>208</y>
+      <w>224</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_Method: Awake()_
+--
+registerUI.UserName.onEndEdit.AddListener
+    (delegate { checkUserNameInput(registerUI.UserName.text); });
+registerUI.PasswordConfirm.onEndEdit.AddListener
+    (delegate { checkPasswordConfirmInput(registerUI.PasswordConfirm.text); })
+registerUI.Email.onEndEdit.AddListener
+    (delegate { checkEmailInput(registerUI.Email.text); });
+socketIO = Connection.Instance.Socket;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>276</y>
+      <w>224</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>_Method: Start()_
+--
+registerUI.RegisterBtn.onClick.AddListener(() 
+   =&gt; setRegisterClick());
+registerUI.CloseBtn.onClick.AddListener(()
+   =&gt; registerUI.ClearInfo());
+socketIO.On("R_REGISTER", R_REGISTER);
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>924</y>
+      <w>224</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>_Method: md5String()_
+--
+System.Text.UTF8Encoding ue = new System.Text.UTF8Encoding();
+byte[] bytes = ue.GetBytes(strToEncrypt);
+System.Security.Cryptography.MD5CryptoServiceProvider md5 = 
+   new System.Security.Cryptography.MD5CryptoServiceProvider();
+byte[] hashBytes = md5.ComputeHash(bytes);
+string hashString = "";
+for (int i = 0; i &lt; hashBytes.Length; i++)
+    hashString += System.Convert.ToString(hashBytes[i], 16).PadLeft(2, '0');
+return hashString.PadLeft(32, '0');
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>344</y>
+      <w>224</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>_Method: R_REGISTER(obj)_
+--
+int successBool = int.Parse(obj.data["R_REGISTER"].ToString());
+switch (successBool)
+  case 0:
+    registerUI.RegisterBtn.interactable = true;
+    StartCoroutine("showWarningText");
+    break;
+  case 1:
+    //LoginScript.instances.S_LOGIN(UserName, Password);
+    Debug.Log("Load user data to map scene");
+    break;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>428</y>
+      <w>224</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_Method: showWarningText()_
+--
+registerUI.WarningText.gameObject.SetActive(true);
+registerUI.WarningText.text = registerUI.WarningText.
+   GetComponent&lt;ChangeLanguage&gt;().Language.ChangeLanguage();
+registerUI.RegisterBtn.interactable = true;
+yield return new WaitForSeconds(3);
+registerUI.WarningText.gameObject.SetActive(false);
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>484</y>
+      <w>224</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_Method: checkUserNameInput(input)_
+--
+if (input.Length &lt;= 5 || input.Length &gt; 30)
+   checkUserName = false;
+else
+   checkUserName = true;
+   registerUI.WarningUserName.SetActive(!checkUserName);
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>540</y>
+      <w>224</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>_Method: checkEmailInput(input)_
+--
+checkEmail = false;
+if (input.Length &gt; 0 &amp;&amp; input.Contains("@"))
+    checkEmail = true;
+registerUI.WarningEmail.SetActive(!checkEmail);
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>596</y>
+      <w>224</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>_Method: checkPasswordInput(input)_
+--
+if (registerUI.PasswordConfirm.text.Length &gt; 5 &amp;&amp;
+                 registerUI.PasswordConfirm.text.Equals(input))
+  checkPassword = true;
+  registerUI.WarningPassword.SetActive(!checkPassword);
+if (registerUI.PasswordConfirm.text.Length == 0)
+  registerUI.WarningPassword.SetActive(false);
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>664</y>
+      <w>224</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>_Method: checkPasswordConfirmInput(input)_
+--
+if (input.Length &gt;= 6)
+    if (registerUI.Password.text.Equals(input))
+        checkPassword = true;
+    else
+        checkPassword = false;
+else
+    checkPassword = false;
+registerUI.WarningPassword.SetActive(!checkPassword);
+registerUI.WarningPasswordConfirm.SetActive(!checkPassword);
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>744</y>
+      <w>224</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>_Method: setRegisterClick()_
+--
+if (checkUserAccount() == true)
+{
+    Dictionary&lt;string, string&gt; data = new Dictionary&lt;string, string&gt;();
+    data["UserName"] = registerUI.UserName.text;
+    data["Password"] = md5String(registerUI.Password.text);
+    data["Email"] = registerUI.Email.text;
+    UserName = registerUI.UserName.text;
+    Password = md5String(registerUI.Password.text);
+    registerUI.RegisterBtn.interactable = false;
+    S_REGISTER(data);
+}
+registerUI.RegisterBtn.interactable = !checkUserAccount();
+);
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>848</y>
+      <w>224</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>_Method: checkUserAccount()_
+--
+bool checkBool = false;
+if (checkUserName == true &amp;&amp; checkPassword == true &amp;&amp; 
+    checkEmail == true)
+    checkBool = true;
+registerUI.WarningUserName.SetActive(!checkUserName);
+registerUI.WarningPassword.SetActive(!checkPassword);
+registerUI.WarningEmail.SetActive(!checkEmail);
+return checkBool;
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>164</y>
+      <w>224</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>_Method: S_REGISTER(data)_
+--
+socketIO.Emit("S_REGISTER", new JSONObject(data));
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>164</y>
+      <w>184</w>
+      <h>328</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;280.0;10.0;280.0;800.0;440.0;800.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>208</y>
+      <w>184</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;280.0;10.0;280.0;760.0;440.0;760.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>276</y>
+      <w>184</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;280.0;10.0;280.0;610.0;440.0;610.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>344</y>
+      <w>184</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;280.0;10.0;280.0;460.0;440.0;460.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>428</y>
+      <w>184</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;280.0;10.0;280.0;260.0;440.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>484</y>
+      <w>184</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;280.0;10.0;280.0;140.0;440.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>540</y>
+      <w>184</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;440.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>548</y>
+      <w>184</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;130.0;280.0;130.0;280.0;10.0;440.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>552</y>
+      <w>184</w>
+      <h>124</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;290.0;280.0;290.0;280.0;10.0;440.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>560</y>
+      <w>184</w>
+      <h>196</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;470.0;280.0;470.0;280.0;10.0;440.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>568</y>
+      <w>184</w>
+      <h>292</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;710.0;280.0;710.0;280.0;10.0;440.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>404</x>
+      <y>572</y>
+      <w>184</w>
+      <h>364</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;890.0;280.0;890.0;280.0;10.0;440.0;10.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>185</x>
+      <y>0</y>
+      <w>140</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>Serializable
+--
+_Class: ConnectRegion_
+--
++ GameObject ConnectLoginRegion;
++ Button SignOutBtn;
++ Button LoginBtn;
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>185</x>
+      <y>75</y>
+      <w>140</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Serializable
+--
+_Class: FirstConnect_
+--
++ GameObject FirstConnectRegion;
++ InputField InputUser;
++ InputField InputPassword;
++ Toggle ToggleRememberAccount;
++ Button LoginBtn;
++ Button ForgotPasswordBtn;
++ GameObject ForgotPanel;
++ Button CreateAccountBtn;
++ GameObject CreateAccountPanel;
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>90</y>
+      <w>140</w>
+      <h>175</h>
+    </coordinates>
+    <panel_attributes>_Class: LoginScrip: Monobehaiour_
+--
+_Public Fields:_
++ static LoginScript instances;
+
+_Private Fields:_
+- FirstConnect firstConnect;
+- ConnectRegion connectRegion;
+- SocketIOComponent socketIO;
+
+_Public Method_
+* void S_LOGIN(string,string);
+
+_Private Method_
+* void Awake();
+* void Start();
+* void R_LOGIN(SocketIOEvent);
+* void login();
+* void signOutClick();
+* void loginClick();
+* string md5String();
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>225</y>
+      <w>280</w>
+      <h>145</h>
+    </coordinates>
+    <panel_attributes>_Method: Awake()_
+--
+if (instances == null) { instances = this; }
+else { Destroy(gameObject); }
+
+firstConnect.LoginBtn.onClick.AddListener(() =&gt; login());
+firstConnect.ForgotPasswordBtn.onClick.AddListener(() 
+   =&gt; firstConnect.ForgotPanel.SetActive(true));
+firstConnect.CreateAccountBtn.onClick.AddListener(()
+   =&gt; firstConnect.CreateAccountPanel.SetActive(true));
+connectRegion.SignOutBtn.onClick.AddListener(() 
+   =&gt; signOutClick());
+connectRegion.LoginBtn.onClick.AddListener(()
+   =&gt; loginClick());
+bool rememberUserBool = PlayerPrefs.HasKey("UserName");
+connectRegion.ConnectLoginRegion.SetActive(rememberUserBool);
+firstConnect.FirstConnectRegion.SetActive(!rememberUserBool);</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>380</y>
+      <w>280</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Method: Start()_
+--
+socketIO = Connection.Instance.Socket;
+socketIO.On("R_LOGIN", R_LOGIN);</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>420</y>
+      <w>280</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Method: R_LOGIN(obj)_
+--
+int successBool = int.Parse(obj.data["LoginBool"].ToString());
+switch (successBool)
+{
+  case 0:
+    Debug.Log("Login fail");
+    break;
+  case 1:
+    Debug.Log("Login success");
+    break;
+}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>530</y>
+      <w>280</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>_Method: login()_
+--
+string UserName = firstConnect.InputUser.text.ToString();
+string Password = firstConnect.InputPassword.text.ToString();
+if (UserName.Length &gt;= 6 &amp;&amp; Password.Length &gt;= 6)
+{
+  S_LOGIN(UserName, Password);
+  if (firstConnect.ToggleRememberAccount.isOn == true)
+  {
+    PlayerPrefs.SetString("UserName", UserName);
+    PlayerPrefs.SetString("Password", Password);
+   }
+}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>650</y>
+      <w>280</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>_Method: signOutClick()_
+--
+PlayerPrefs.DeleteKey("UserName");
+PlayerPrefs.DeleteKey("Password");
+connectRegion.ConnectLoginRegion.SetActive(false);
+firstConnect.FirstConnectRegion.SetActive(true);
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>710</y>
+      <w>280</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>_Method: loginClick()_
+--
+string UserName = PlayerPrefs.GetString("UserName");
+string Password = PlayerPrefs.GetString("Password");
+S_LOGIN(UserName, Password);
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>765</y>
+      <w>280</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>_Method: md5String()_
+--
+System.Text.UTF8Encoding ue = new System.Text.UTF8Encoding();
+byte[] bytes = ue.GetBytes(strToEncrypt);
+System.Security.Cryptography.MD5CryptoServiceProvider md5 = 
+   new System.Security.Cryptography.MD5CryptoServiceProvider();
+byte[] hashBytes = md5.ComputeHash(bytes);
+string hashString = "";
+for (int i = 0; i &lt; hashBytes.Length; i++)
+    hashString += System.Convert.ToString(hashBytes[i], 16).PadLeft(2, '0');
+return hashString.PadLeft(32, '0');
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>115</y>
+      <w>280</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_Method: S_LOGIN(UserName, Password)_
+--
+Dictionary&lt;string, string&gt; data = new Dictionary&lt;string, string&gt;()
+data["UserName"] = UserName;
+data["Password"] = md5String(Password);
+data["Model_Device"] = SystemInfo.deviceModel;
+data["Ram_Device"] = SystemInfo.systemMemorySize.ToString();
+socketIO.Emit("S_LOGIN", new JSONObject(data));
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>115</y>
+      <w>60</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;130.0;100.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>195</y>
+      <w>60</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;50.0;70.0;50.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>205</y>
+      <w>60</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;360.0;50.0;360.0;50.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>215</y>
+      <w>60</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;420.0;50.0;420.0;50.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>220</y>
+      <w>65</w>
+      <h>325</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;630.0;50.0;630.0;50.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>230</y>
+      <w>60</w>
+      <h>435</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;850.0;50.0;850.0;50.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>240</y>
+      <w>60</w>
+      <h>485</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;950.0;50.0;950.0;50.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>245</y>
+      <w>60</w>
+      <h>535</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;1050.0;50.0;1050.0;50.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+</diagram>

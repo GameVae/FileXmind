@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>200</y>
+      <w>390</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>_Single Class: EventListenersController: Monobehaiour_
+--
+_Public Fields_
++ Connection Conn;
+
+_Public Properties_
++ static EventListenersController Instance
+       { get; private set; }
++ Sync.Sync SyncData 
+       { get { return Conn?.Sync; } }
+
+_Public Method:_
+* void AddEmiter(string, System.Func&lt;JSONObject&gt;);
+* void Emit(string);
+
+_Private Method:_
+* void Awake()
+
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>450</y>
+      <w>560</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>_Method: Awake()_
+--
+if (Instance == null)
+    Instance = this;
+else Destroy(gameObject);
+emitter = new Dictionary&lt;string, System.Func&lt;JSONObject&gt;&gt;();
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>450</y>
+      <w>190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>320</y>
+      <w>560</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>_Method: Emit(ev)_
+--
+try
+    Conn.Emit(ev, emitter[ev]?.Invoke());
+catch (System.Exception ex)
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>320</y>
+      <w>190</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0;120.0;70.0;170.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>190</y>
+      <w>560</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>_Method: AddEmiter(ev,getData)_
+--
+emitter[ev] = getData;
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>190</y>
+      <w>190</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0;120.0;220.0;170.0;220.0</additional_attributes>
+  </element>
+</diagram>
