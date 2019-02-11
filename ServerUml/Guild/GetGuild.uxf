@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>70</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>GetGuild.js</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>110</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>S_CREATE_GUILD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>30</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Client Send Data</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>0</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>var dataGuild ={
+	GuildTag: 	'ABf',
+	GuildName: 	'123456a',
+	ID_User: 	9,
+	Server_ID: 	1,
+}
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>190</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Server Get Data</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>180</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>halign=left
+Check Data (length, avaiable):
+- Name 
+- Tag
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1000</x>
+      <y>190</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Send Client result</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>300</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Create New Guild</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1000</x>
+      <y>300</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>halign=left
+- Learder
+- Guild Name
+- Tag
+- Guild Level
+- Might</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
